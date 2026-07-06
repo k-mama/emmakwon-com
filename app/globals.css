@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+:root {
+  /* material world */
+  --color-obsidian: #070707;
+  --color-soft-black: #11100e;
+  --color-warm-ivory: #f7f1e8;
+  --color-pearl-white: #fcfaf6;
+  --color-champagne: #d8c6a3;
+  --color-tiger-gold: #b88a3b;
+  --color-muted-bronze: #7a5a35;
+  --color-soft-smoke: #8d8780;
+
+  /* rare light — used sparingly as glow, never as scheme */
+  --color-rare-orange: #e97a0a;
+  --color-molten-amber: #df9c3b;
+  --color-liquid-gold: #f0b960;
+  --color-olive-glow: #6a874c;
+  --color-sage-glass: #9bb98d;
+  --color-mint-light: #86d9bb;
+  --color-soft-aqua: #badabd;
+  --color-pearl-pink: #ebbdb9;
+  --color-blush-glass: #eecec2;
+  --color-peach-flame: #f0a288;
+  --color-moss-shadow: #657937;
+
+  /* soft and cheerful — pastel room palette, blended not neon */
+  --color-ice-cream-lavender: #cea0d8;
+  --color-soft-periwinkle: #a0a6dd;
+  --color-sky-aqua: #8fdae0;
+  --color-clear-blue: #5ba2d5;
+  --color-candy-pink: #f38da1;
+  --color-hot-rose: #e870a7;
+  --color-playful-magenta: #ba1bd4;
+  --color-electric-orchid: #d224d6;
+  --color-playful-violet: #b15fd1;
+  --color-sunny-orange: #f4a118;
+  --color-soft-blush: #e7d5e3;
+  --color-cream-white: #f8f5f2;
+  --color-soft-ink: #171417;
+
+  /* unified box text system — same everywhere, not per page */
+  --color-title-primary: #18264a;
+  --color-body-text: #4c4a63;
+  --color-soft-text: #7c748a;
+  --color-eyebrow-label: #b99a5e;
+  --color-divider-line: #e8dccf;
+  --color-header-hover: #c23bcb;
+
+  --background: var(--color-cream-white);
+  --foreground: var(--color-soft-ink);
+}
+
+@theme inline {
+  --color-obsidian: var(--color-obsidian);
+  --color-soft-black: var(--color-soft-black);
+  --color-warm-ivory: var(--color-warm-ivory);
+  --color-pearl-white: var(--color-pearl-white);
+  --color-champagne: var(--color-champagne);
+  --color-tiger-gold: var(--color-tiger-gold);
+  --color-muted-bronze: var(--color-muted-bronze);
+  --color-soft-smoke: var(--color-soft-smoke);
+
+  --color-rare-orange: var(--color-rare-orange);
+  --color-molten-amber: var(--color-molten-amber);
+  --color-liquid-gold: var(--color-liquid-gold);
+  --color-olive-glow: var(--color-olive-glow);
+  --color-sage-glass: var(--color-sage-glass);
+  --color-mint-light: var(--color-mint-light);
+  --color-soft-aqua: var(--color-soft-aqua);
+  --color-pearl-pink: var(--color-pearl-pink);
+  --color-blush-glass: var(--color-blush-glass);
+  --color-peach-flame: var(--color-peach-flame);
+  --color-moss-shadow: var(--color-moss-shadow);
+
+  --color-ice-cream-lavender: var(--color-ice-cream-lavender);
+  --color-soft-periwinkle: var(--color-soft-periwinkle);
+  --color-sky-aqua: var(--color-sky-aqua);
+  --color-clear-blue: var(--color-clear-blue);
+  --color-candy-pink: var(--color-candy-pink);
+  --color-hot-rose: var(--color-hot-rose);
+  --color-playful-magenta: var(--color-playful-magenta);
+  --color-electric-orchid: var(--color-electric-orchid);
+  --color-playful-violet: var(--color-playful-violet);
+  --color-sunny-orange: var(--color-sunny-orange);
+  --color-soft-blush: var(--color-soft-blush);
+  --color-cream-white: var(--color-cream-white);
+  --color-soft-ink: var(--color-soft-ink);
+
+  --color-title-primary: var(--color-title-primary);
+  --color-body-text: var(--color-body-text);
+  --color-soft-text: var(--color-soft-text);
+  --color-eyebrow-label: var(--color-eyebrow-label);
+  --color-divider-line: var(--color-divider-line);
+  --color-header-hover: var(--color-header-hover);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-display: var(--font-baloo);
+  --font-sans: var(--font-manrope);
+}
+
+body {
+  background: var(--color-cream-white);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+@keyframes rare-light-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(1%, -1.5%, 0) scale(1.03);
+  }
+}
+
+@keyframes quiet-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

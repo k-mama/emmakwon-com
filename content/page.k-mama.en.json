@@ -1,0 +1,32 @@
+{
+  "eyebrow": "Children's content and family creative brand by Emma Kwon",
+  "title": "K-MAMA",
+  "intro": "A warm world for young hearts, built with the same care as everything else in this house.",
+  "sections": [
+    {
+      "key": "coloring-books",
+      "label": "Coloring Books",
+      "description": "K-MAMA's Luxury Fashion Coloring Book, published in three editions.",
+      "editions": [
+        { "label": "English", "linkKey": "english" },
+        { "label": "French", "linkKey": "french" },
+        { "label": "German", "linkKey": "german" }
+      ]
+    },
+    {
+      "key": "kids-songs",
+      "label": "Kids Songs",
+      "description": "Six songs released so far, warm and bright."
+    },
+    {
+      "key": "learning-comics",
+      "label": "Learning Comic Video Series",
+      "description": "In development, arriving in a future season."
+    },
+    {
+      "key": "reels-wave-kids",
+      "label": "Reels Wave Kids",
+      "description": "A YouTube channel under K-MAMA."
+    }
+  ]
+}

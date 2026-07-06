@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Official music artist brand by Emma Kwon",
+  "title": "EMMAESTRO",
+  "intro": "Sound carries its own room in this house. Three albums, twenty songs, released and streaming worldwide.",
+  "stats": [
+    { "label": "Albums", "value": "3" },
+    { "label": "Songs", "value": "20" },
+    { "label": "Reach", "value": "Worldwide" }
+  ],
+  "streamingSectionTitle": "Listen",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music"
+}

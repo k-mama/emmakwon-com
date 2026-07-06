@@ -1,0 +1,38 @@
+{
+  "instagram": {
+    "handle": "@the_real_emma_kwon",
+    "url": "https://www.instagram.com/the_real_emma_kwon"
+  },
+  "emmaestro": {
+    "spotifyAlbums": [
+      "https://open.spotify.com/album/73jtNDnHgNkRqpBbIuyBoT",
+      "https://open.spotify.com/album/7wwePbfKpU75puc1l2C8dD",
+      "https://open.spotify.com/album/1FL6HJ0lR24MloZXWe3fYE"
+    ],
+    "appleMusicAlbums": [
+      "https://music.apple.com/au/album/sly-fairy/6785117705",
+      "https://music.apple.com/au/album/no-deadline-to-be-okay-ep/6787253426"
+    ],
+    "albumCount": 3,
+    "songCount": 20
+  },
+  "bornRare": {
+    "kindleUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon-ebook/dp/B0GX33CZQV",
+    "paperbackUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon/dp/B0H3VPPWD8",
+    "hardcoverUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon/dp/B0H3Z3TKCH/ref=tmm_hrd_swatch_0"
+  },
+  "kMamaColoringBook": {
+    "english": {
+      "asin": "B0DRDDH5Q3",
+      "url": "https://www.amazon.com/K-MAMAs-Luxury-Fashion-Coloring-Adults/dp/B0DRDDH5Q3"
+    },
+    "french": {
+      "asin": "B0DSSTSX12",
+      "url": "https://a.co/d/07blP9zp"
+    },
+    "german": {
+      "asin": "B0DRTG5MJ5",
+      "url": "https://a.co/d/05gHYJZI"
+    }
+  }
+}
