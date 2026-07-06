@@ -1627,10 +1627,12 @@ edit project files
 install necessary dependencies
 run npm run lint
 run npm run build
+git add, commit, and push to main once lint and build both pass
+(Emma does not review localhost before these routine pushes;
+do not ask her to check localhost first)
 
 Needs explicit Emma approval:
 git init
-git push
 delete folders
 force fix dependencies
 add real environment variables
