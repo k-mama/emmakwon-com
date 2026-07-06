@@ -40,7 +40,16 @@
       "label": "Reels Wave Kids",
       "description": "A YouTube channel under K-MAMA, introducing warm nursery rhymes and kids songs.",
       "logo": "/k-mama/reels-wave-kids-logo.png",
-      "youtubeCta": "Watch on YouTube"
+      "youtubeCta": "Watch on YouTube",
+      "youtubeLinkKey": "reelsWaveKids"
+    },
+    {
+      "key": "dj-hamahama",
+      "label": "DJ hamahama",
+      "description": "A YouTube channel under K-MAMA, releasing free Fortnite anthems built for energy and play.",
+      "logo": "/k-mama/dj-hamahama-logo.png",
+      "youtubeCta": "Watch on YouTube",
+      "youtubeLinkKey": "djHamahama"
     }
   ]
 }

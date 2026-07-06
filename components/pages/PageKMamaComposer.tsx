@@ -30,7 +30,10 @@ export function PageKMamaComposer() {
           <KMamaSectionList
             sections={kMamaContent.sections}
             coloringBookLinks={officialLinks.kMamaColoringBook}
-            reelsWaveKidsYoutubeUrl={officialLinks.reelsWaveKids.youtubeUrl}
+            channelLinks={{
+              reelsWaveKids: officialLinks.reelsWaveKids.youtubeUrl,
+              djHamahama: officialLinks.djHamahama.youtubeUrl,
+            }}
           />
         </div>
       </div>

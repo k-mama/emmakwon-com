@@ -161,7 +161,8 @@ Emma Kwon
    ├─ Coloring Books
    ├─ Kids Songs
    ├─ Learning Comic Video Series
-   └─ Reels Wave Kids
+   ├─ Reels Wave Kids
+   └─ DJ hamahama
 ```
 
 Critical rule:
@@ -336,10 +337,22 @@ coloring books
 kids songs
 learning comic video series
 Reels Wave Kids
+DJ hamahama
 ```
 
 Reels Wave Kids belongs under K-MAMA.
-It is not a top level brand.
+DJ hamahama belongs under K-MAMA.
+Neither is a top level brand.
+
+DJ hamahama:
+
+```text
+YouTube channel:
+https://www.youtube.com/@djhamahama
+
+Role:
+Free Fortnite anthem music under K-MAMA
+```
 
 Published product line:
 
@@ -615,6 +628,7 @@ BORN RARE = memoir
 Works = luxury gallery
 K-MAMA = children's content brand
 Reels Wave Kids = K-MAMA channel
+DJ hamahama = K-MAMA channel
 ```
 
 ### 6.5 Copy Director
@@ -692,6 +706,7 @@ German edition
 kids songs
 learning comic video series
 Reels Wave Kids
+DJ hamahama
 ```
 
 ### 6.10 Frontend Architect
@@ -1019,6 +1034,7 @@ Coloring Books
 Kids Songs
 Learning Comic Video Series
 Reels Wave Kids
+DJ hamahama
 ```
 
 Must show:
@@ -1030,6 +1046,7 @@ French edition
 German edition
 6 kids songs currently released
 Reels Wave Kids as YouTube channel under K-MAMA
+DJ hamahama as YouTube channel under K-MAMA, free Fortnite anthems
 Learning comic video series coming later
 ```
 

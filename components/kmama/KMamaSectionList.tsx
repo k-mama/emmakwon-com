@@ -11,6 +11,7 @@ type KMamaSection = {
   editions?: KMamaEdition[];
   logo?: string;
   youtubeCta?: string;
+  youtubeLinkKey?: string;
 };
 
 type ColoringBookRegistry = Record<string, { url: string }>;
@@ -18,11 +19,11 @@ type ColoringBookRegistry = Record<string, { url: string }>;
 export function KMamaSectionList({
   sections,
   coloringBookLinks,
-  reelsWaveKidsYoutubeUrl,
+  channelLinks,
 }: {
   sections: KMamaSection[];
   coloringBookLinks: ColoringBookRegistry;
-  reelsWaveKidsYoutubeUrl: string;
+  channelLinks: Record<string, string>;
 }) {
   return (
     <div className="flex flex-col">
@@ -79,9 +80,9 @@ export function KMamaSectionList({
             </ul>
           ) : null}
 
-          {section.youtubeCta ? (
+          {section.youtubeCta && section.youtubeLinkKey && channelLinks[section.youtubeLinkKey] ? (
             <a
-              href={reelsWaveKidsYoutubeUrl}
+              href={channelLinks[section.youtubeLinkKey]}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block text-sm text-title-primary transition-opacity duration-300 hover:opacity-70"
