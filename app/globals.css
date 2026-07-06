@@ -39,7 +39,7 @@
   --color-cream-white: #f8f5f2;
   --color-soft-ink: #171417;
   --color-deep-rose-violet: #7a3560;
-  --color-lemon-highlight: #f6e27a;
+  --color-blush-highlight: #f3d6cf;
 
   /* unified box text system — same everywhere, not per page */
   --color-title-primary: #18264a;
@@ -89,7 +89,7 @@
   --color-cream-white: var(--color-cream-white);
   --color-soft-ink: var(--color-soft-ink);
   --color-deep-rose-violet: var(--color-deep-rose-violet);
-  --color-lemon-highlight: var(--color-lemon-highlight);
+  --color-blush-highlight: var(--color-blush-highlight);
 
   --color-title-primary: var(--color-title-primary);
   --color-body-text: var(--color-body-text);
