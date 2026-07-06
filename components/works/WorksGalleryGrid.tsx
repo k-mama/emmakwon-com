@@ -3,15 +3,13 @@ import { VisualIridescentPanel } from "@/components/visual/VisualIridescentPanel
 type WorksCategory = {
   key: string;
   label: string;
-  items: { title: string; note?: string }[];
+  items: { title: string; note?: string; tag: string }[];
 };
 
 export function WorksGalleryGrid({
   categories,
-  placeholderLabel,
 }: {
   categories: WorksCategory[];
-  placeholderLabel: string;
 }) {
   return (
     <div className="flex flex-col gap-16">
@@ -26,7 +24,7 @@ export function WorksGalleryGrid({
                 key={item.title}
                 title={item.title}
                 note={item.note}
-                placeholderLabel={placeholderLabel}
+                tag={item.tag}
                 accentIndex={categoryIndex * 3 + itemIndex}
               />
             ))}

@@ -4,15 +4,20 @@
     "url": "https://www.instagram.com/the_real_emma_kwon"
   },
   "emmaestro": {
-    "spotifyAlbums": [
-      "https://open.spotify.com/album/73jtNDnHgNkRqpBbIuyBoT",
-      "https://open.spotify.com/album/7wwePbfKpU75puc1l2C8dD",
-      "https://open.spotify.com/album/1FL6HJ0lR24MloZXWe3fYE"
-    ],
-    "appleMusicAlbums": [
-      "https://music.apple.com/au/album/sly-fairy/6785117705",
-      "https://music.apple.com/au/album/no-deadline-to-be-okay-ep/6787253426"
-    ],
+    "albums": {
+      "aussie": {
+        "spotifyUrl": "https://open.spotify.com/album/7wwePbfKpU75puc1l2C8dD",
+        "appleMusicUrl": null
+      },
+      "slyFairy": {
+        "spotifyUrl": "https://open.spotify.com/album/73jtNDnHgNkRqpBbIuyBoT",
+        "appleMusicUrl": "https://music.apple.com/au/album/sly-fairy/6785117705"
+      },
+      "noDeadlineToBeOkay": {
+        "spotifyUrl": "https://open.spotify.com/album/1FL6HJ0lR24MloZXWe3fYE",
+        "appleMusicUrl": "https://music.apple.com/au/album/no-deadline-to-be-okay-ep/6787253426"
+      }
+    },
     "albumCount": 3,
     "songCount": 20
   },
@@ -20,6 +25,9 @@
     "kindleUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon-ebook/dp/B0GX33CZQV",
     "paperbackUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon/dp/B0H3VPPWD8",
     "hardcoverUrl": "https://www.amazon.com/BORN-RARE-Emma-Kwon/dp/B0H3Z3TKCH/ref=tmm_hrd_swatch_0"
+  },
+  "reelsWaveKids": {
+    "youtubeUrl": "https://www.youtube.com/@ReelsWaveKids"
   },
   "kMamaColoringBook": {
     "english": {

@@ -2,6 +2,7 @@ import contactContent from "@/content/page.contact.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
+import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
 
 export function PageContactComposer() {
   return (
@@ -25,9 +26,9 @@ export function PageContactComposer() {
             href={officialLinks.instagram.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-12 inline-block text-title-primary underline decoration-divider-line underline-offset-4 transition-colors duration-300 hover:text-header-hover"
+            className="mt-12 inline-block text-title-primary transition-opacity duration-300 hover:opacity-70"
           >
-            {contactContent.instagramCta}
+            <VisualHighlightMark>{contactContent.instagramCta}</VisualHighlightMark>
           </a>
         </SharedEditorialPanel>
       </div>

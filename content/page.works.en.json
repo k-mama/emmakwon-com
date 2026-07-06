@@ -2,52 +2,51 @@
   "eyebrow": "A gallery by Emma Kwon",
   "title": "Works",
   "intro": "Objects, packaging, and worlds designed under Emma Kwon's hand. Selected pieces are shown here as they are prepared for the gallery.",
-  "placeholderLabel": "Selected Works, In Preparation",
   "categories": [
     {
       "key": "websites",
       "label": "Websites",
       "items": [
-        { "title": "DUFERI", "note": "Homepage" },
-        { "title": "Esther Cho", "note": "Homepage" }
+        { "title": "DUFERI", "note": "Homepage", "tag": "Live Project" },
+        { "title": "Esther Cho", "note": "Homepage", "tag": "Live Project" }
       ]
     },
     {
       "key": "cosmetic-packaging",
       "label": "Cosmetic Packaging",
       "items": [
-        { "title": "DUFERI", "note": "Cosmetic packaging" },
-        { "title": "DUFERI HOMME", "note": "Package concepts" }
+        { "title": "DUFERI", "note": "Cosmetic packaging", "tag": "Completed Work" },
+        { "title": "DUFERI HOMME", "note": "Package concepts", "tag": "Concept Development" }
       ]
     },
     {
       "key": "cosmetic-containers",
       "label": "Cosmetic Containers",
       "items": [
-        { "title": "Container Design", "note": "In preparation" }
+        { "title": "Container Design", "note": "In preparation", "tag": "In Development" }
       ]
     },
     {
       "key": "bag-design",
       "label": "Bag Design",
       "items": [
-        { "title": "Bag Design", "note": "In preparation" }
+        { "title": "Bag Design", "note": "In preparation", "tag": "In Development" }
       ]
     },
     {
       "key": "publishing-projects",
       "label": "Publishing Projects",
       "items": [
-        { "title": "BORN RARE", "note": "Literary memoir" },
-        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "English, French, German" },
-        { "title": "Esther Cho", "note": "Book project" }
+        { "title": "BORN RARE", "note": "Literary memoir", "tag": "Published Work" },
+        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "English, French, German", "tag": "Published Work" },
+        { "title": "Esther Cho", "note": "Book project", "tag": "In Production" }
       ]
     },
     {
       "key": "brand-objects",
       "label": "Brand Objects",
       "items": [
-        { "title": "Brand Objects", "note": "In preparation" }
+        { "title": "Brand Objects", "note": "In preparation", "tag": "In Development" }
       ]
     }
   ]

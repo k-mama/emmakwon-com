@@ -8,12 +8,12 @@ const TILE_CLASSES = [
 export function VisualIridescentPanel({
   title,
   note,
-  placeholderLabel,
+  tag,
   accentIndex = 0,
 }: {
   title: string;
   note?: string;
-  placeholderLabel: string;
+  tag: string;
   accentIndex?: number;
 }) {
   const tileClasses = TILE_CLASSES[accentIndex % TILE_CLASSES.length];
@@ -23,7 +23,7 @@ export function VisualIridescentPanel({
       className={`flex aspect-[4/5] flex-col justify-end rounded-3xl p-6 shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg ${tileClasses}`}
     >
       <span className="text-[0.65rem] uppercase tracking-[0.2em] opacity-70">
-        {placeholderLabel}
+        {tag}
       </span>
       <h3 className="mt-3 font-display text-xl">{title}</h3>
       {note ? <p className="mt-1 text-sm opacity-80">{note}</p> : null}

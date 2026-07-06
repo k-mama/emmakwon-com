@@ -8,9 +8,21 @@
       "label": "Coloring Books",
       "description": "K-MAMA's Luxury Fashion Coloring Book, published in three editions.",
       "editions": [
-        { "label": "English", "linkKey": "english" },
-        { "label": "French", "linkKey": "french" },
-        { "label": "German", "linkKey": "german" }
+        {
+          "label": "English",
+          "linkKey": "english",
+          "cover": "/k-mama/k-mama-coloring-book-english-cover.jpg"
+        },
+        {
+          "label": "French",
+          "linkKey": "french",
+          "cover": "/k-mama/k-mama-coloring-book-french-cover.jpg"
+        },
+        {
+          "label": "German",
+          "linkKey": "german",
+          "cover": "/k-mama/k-mama-coloring-book-german-cover.jpg"
+        }
       ]
     },
     {
@@ -26,7 +38,9 @@
     {
       "key": "reels-wave-kids",
       "label": "Reels Wave Kids",
-      "description": "A YouTube channel under K-MAMA."
+      "description": "A YouTube channel under K-MAMA, introducing warm nursery rhymes and kids songs.",
+      "logo": "/k-mama/reels-wave-kids-logo.png",
+      "youtubeCta": "Watch on YouTube"
     }
   ]
 }

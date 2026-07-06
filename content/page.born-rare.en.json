@@ -1,7 +1,8 @@
 {
   "eyebrow": "Literary memoir by Emma Kwon",
   "title": "BORN RARE",
-  "intro": "A literary memoir about memory, survival, brightness, and the rare parts of a life that were once misread.",
+  "cover": "/born-rare/born-rare-book-cover.jpg",
+  "intro": "A memoir of survival, childhood, and brightness — the record of turning what was once misread into something made.",
   "editionsSectionTitle": "Available on Amazon",
   "editions": [
     { "label": "Kindle", "linkKey": "kindleUrl" },

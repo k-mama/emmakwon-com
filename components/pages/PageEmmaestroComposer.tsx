@@ -1,8 +1,14 @@
+import Image from "next/image";
 import emmaestroContent from "@/content/page.emmaestro.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
+import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
 // import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
+
+type AlbumLinks = { spotifyUrl: string; appleMusicUrl: string | null };
+
+const ALBUM_LINKS: Record<string, AlbumLinks> = officialLinks.emmaestro.albums;
 
 export function PageEmmaestroComposer() {
   return (
@@ -30,7 +36,7 @@ export function PageEmmaestroComposer() {
                 <dt className="text-xs uppercase tracking-[0.2em] text-soft-text">
                   {stat.label}
                 </dt>
-                <dd className="font-display text-3xl text-title-primary">
+                <dd className="font-sans text-3xl font-semibold text-title-primary">
                   {stat.value}
                 </dd>
               </div>
@@ -41,48 +47,51 @@ export function PageEmmaestroComposer() {
             {emmaestroContent.streamingSectionTitle}
           </h2>
 
-          <div className="mt-6 grid gap-10 sm:grid-cols-2">
-            <div>
-              <p className="text-sm text-soft-text">
-                {emmaestroContent.spotifyLabel}
-              </p>
-              <ul className="mt-3 flex flex-col gap-2">
-                {officialLinks.emmaestro.spotifyAlbums.map((url, index) => (
-                  <li key={url}>
+          <div className="mt-6 grid gap-8 sm:grid-cols-3">
+            {emmaestroContent.albums.map((album) => {
+              const links = ALBUM_LINKS[album.linkKey];
+
+              return (
+                <div key={album.title}>
+                  <div className="relative aspect-square overflow-hidden rounded-2xl shadow-md">
+                    <Image
+                      src={album.cover}
+                      alt={`${album.title} album cover`}
+                      fill
+                      sizes="(min-width: 640px) 33vw, 100vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  <h3 className="mt-4 font-display text-lg text-title-primary">
+                    {album.title}
+                  </h3>
+                  <div className="mt-1 flex gap-4 text-sm">
                     <a
-                      href={url}
+                      href={links.spotifyUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-title-primary underline decoration-divider-line underline-offset-4 transition-colors duration-300 hover:text-header-hover"
+                      className="text-title-primary transition-opacity duration-300 hover:opacity-70"
                     >
-                      Album {index + 1}
+                      <VisualHighlightMark>
+                        {emmaestroContent.spotifyLabel}
+                      </VisualHighlightMark>
                     </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <p className="text-sm text-soft-text">
-                {emmaestroContent.appleMusicLabel}
-              </p>
-              <ul className="mt-3 flex flex-col gap-2">
-                {officialLinks.emmaestro.appleMusicAlbums.map(
-                  (url, index) => (
-                    <li key={url}>
+                    {links.appleMusicUrl ? (
                       <a
-                        href={url}
+                        href={links.appleMusicUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-title-primary underline decoration-divider-line underline-offset-4 transition-colors duration-300 hover:text-header-hover"
+                        className="text-title-primary transition-opacity duration-300 hover:opacity-70"
                       >
-                        Album {index + 1}
+                        <VisualHighlightMark>
+                          {emmaestroContent.appleMusicLabel}
+                        </VisualHighlightMark>
                       </a>
-                    </li>
-                  )
-                )}
-              </ul>
-            </div>
+                    ) : null}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </SharedEditorialPanel>
       </div>

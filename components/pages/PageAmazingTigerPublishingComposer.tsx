@@ -2,6 +2,7 @@ import Link from "next/link";
 import publishingContent from "@/content/page.amazing-tiger-publishing.en.json";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
+import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
 // import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
 export function PageAmazingTigerPublishingComposer() {
@@ -30,7 +31,11 @@ export function PageAmazingTigerPublishingComposer() {
               const content = (
                 <>
                   <h3 className="font-display text-xl text-title-primary">
-                    {project.title}
+                    {project.href ? (
+                      <VisualHighlightMark>{project.title}</VisualHighlightMark>
+                    ) : (
+                      project.title
+                    )}
                   </h3>
                   <p className="mt-1 text-sm text-soft-text">
                     {project.role}

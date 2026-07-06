@@ -26,10 +26,7 @@ export function PageWorksComposer() {
         </SharedEditorialPanel>
 
         <div className="mt-16">
-          <WorksGalleryGrid
-            categories={worksContent.categories}
-            placeholderLabel={worksContent.placeholderLabel}
-          />
+          <WorksGalleryGrid categories={worksContent.categories} />
         </div>
       </div>
     </SharedSectionShell>
