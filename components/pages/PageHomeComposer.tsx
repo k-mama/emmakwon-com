@@ -12,6 +12,7 @@ export function PageHomeComposer() {
       <HomeMaisonHero
         title={homeContent.hero.title}
         subtitle={homeContent.hero.subtitle}
+        roles={homeContent.hero.roles}
       />
 
       <SharedSectionShell className="text-center">

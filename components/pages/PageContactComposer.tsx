@@ -12,7 +12,10 @@ export function PageContactComposer() {
           eyebrow={contactContent.eyebrow}
           title={contactContent.title}
         >
-          <p className="max-w-xl text-body-text">{contactContent.intro}</p>
+          <p className="text-[0.65rem] uppercase tracking-[0.25em] text-eyebrow-label">
+            {contactContent.signature}
+          </p>
+          <p className="mt-4 max-w-xl text-body-text">{contactContent.intro}</p>
 
           <ul className="mt-10 grid grid-cols-1 gap-x-10 gap-y-3 text-sm text-body-text sm:grid-cols-2">
             {contactContent.inquiryTypes.map((type) => (

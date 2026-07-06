@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Emma Kwon",
-    "subtitle": "A house of music, books, publishing, children's worlds, and designed objects."
+    "subtitle": "A house of music, books, publishing, children's worlds, and designed objects.",
+    "roles": ["Author", "Music Maker", "Publisher", "Designer"]
   },
   "houseStatement": "Emma Kwon is the house. Music, memoir, publishing, gallery, and children's worlds live inside it as rooms, each carrying her hand.",
   "roomEntrances": [

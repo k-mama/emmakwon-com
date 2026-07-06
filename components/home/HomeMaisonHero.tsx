@@ -3,9 +3,11 @@
 export function HomeMaisonHero({
   title,
   subtitle,
+  roles,
 }: {
   title: string;
   subtitle: string;
+  roles?: string[];
 }) {
   return (
     <section className="relative flex min-h-screen items-center justify-center px-6 text-center">
@@ -23,6 +25,11 @@ export function HomeMaisonHero({
         <h1 className="font-display text-5xl tracking-tight text-title-primary sm:text-7xl">
           {title}
         </h1>
+        {roles && roles.length > 0 ? (
+          <p className="mt-4 text-[0.65rem] uppercase tracking-[0.3em] text-eyebrow-label motion-safe:animate-[quiet-reveal_1.2s_ease-out_0.15s_both] sm:text-xs">
+            {roles.join(" · ")}
+          </p>
+        ) : null}
         <p className="mx-auto mt-6 max-w-md text-sm tracking-wide text-body-text sm:text-base motion-safe:animate-[quiet-reveal_1.2s_ease-out_0.3s_both]">
           {subtitle}
         </p>

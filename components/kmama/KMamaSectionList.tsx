@@ -8,6 +8,7 @@ type KMamaSection = {
   key: string;
   label: string;
   description: string;
+  status?: string;
   editions?: KMamaEdition[];
   logo?: string;
   youtubeCta?: string;
@@ -49,6 +50,14 @@ export function KMamaSectionList({
           <p className="mt-2 max-w-lg text-body-text">
             {section.description}
           </p>
+
+          {/* TODO: replace this status pill with a youtubeCta/linkKey once a confirmed streaming link for this section exists */}
+          {section.status ? (
+            <span className="mt-4 inline-flex items-center gap-2 rounded-full border border-dashed border-divider-line px-3 py-1 text-[0.65rem] uppercase tracking-[0.2em] text-soft-text">
+              <span className="h-1.5 w-1.5 rounded-full border border-soft-text/60" />
+              {section.status}
+            </span>
+          ) : null}
 
           {section.editions ? (
             <ul className="mt-4 flex flex-wrap gap-6">
