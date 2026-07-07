@@ -7,7 +7,7 @@ export function HomeMaisonHero({ hook, href }: { hook: string; href: string }) {
         href={href}
         className="mx-auto max-w-2xl motion-safe:animate-[quiet-reveal_1.2s_ease-out_both]"
       >
-        <p className="font-display text-xl tracking-tight text-body-text transition-opacity duration-300 hover:opacity-70 sm:text-2xl">
+        <p className="font-display text-xl tracking-tight text-soft-text transition-opacity duration-300 hover:opacity-70 sm:text-2xl">
           {hook}
         </p>
       </Link>
