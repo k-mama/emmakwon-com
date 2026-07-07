@@ -17,7 +17,12 @@ export function WorksFeaturedVideo({
     <div className="mx-auto max-w-2xl">
       <div className="relative overflow-hidden rounded-[2rem] border border-champagne/25 bg-obsidian shadow-md">
         <video
-          className="aspect-video w-full object-cover"
+          // Shows the clip at its own native aspect ratio instead of
+          // cropping it into a fixed box.
+          className="block h-auto w-full"
+          // Previous treatment forced every source into a 16:9 landscape
+          // crop. Kept here in case a widescreen cut is used later:
+          // className="aspect-video w-full object-cover"
           src={src}
           muted
           autoPlay
