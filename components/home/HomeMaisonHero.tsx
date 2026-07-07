@@ -1,36 +1,21 @@
 // import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
 export function HomeMaisonHero({
-  title,
   subtitle,
   roles,
 }: {
-  title: string;
   subtitle: string;
   roles?: string[];
 }) {
   return (
-    <section className="relative flex min-h-screen items-center justify-center px-6 text-center">
-      {/* Soft room field background — reverted to flat cream-white per request, colors kept here for later use
-      <VisualSoftRoomField
-        colors={[
-          "var(--color-sunny-orange)",
-          "var(--color-candy-pink)",
-          "var(--color-sky-aqua)",
-          "var(--color-playful-magenta)",
-        ]}
-      />
-      */}
-      <div className="relative rounded-[2.5rem] bg-cream-white/90 px-10 py-14 shadow-xl backdrop-blur motion-safe:animate-[quiet-reveal_1.2s_ease-out_both] sm:px-16 sm:py-20">
-        <h1 className="font-display text-5xl tracking-tight text-title-primary sm:text-7xl">
-          {title}
-        </h1>
+    <section className="relative flex items-center justify-center px-6 pt-16 pb-8 text-center sm:pt-20">
+      <div className="relative mx-auto w-fit max-w-lg rounded-full bg-cream-white/90 px-8 py-4 shadow-md backdrop-blur motion-safe:animate-[quiet-reveal_1.2s_ease-out_both]">
         {roles && roles.length > 0 ? (
-          <p className="mt-4 text-[0.65rem] uppercase tracking-[0.3em] text-eyebrow-label motion-safe:animate-[quiet-reveal_1.2s_ease-out_0.15s_both] sm:text-xs">
+          <p className="text-[0.6rem] uppercase tracking-[0.3em] text-eyebrow-label sm:text-xs">
             {roles.join(" · ")}
           </p>
         ) : null}
-        <p className="mx-auto mt-6 max-w-md text-sm tracking-wide text-body-text sm:text-base motion-safe:animate-[quiet-reveal_1.2s_ease-out_0.3s_both]">
+        <p className="mt-1 text-xs tracking-wide text-body-text sm:text-sm">
           {subtitle}
         </p>
       </div>

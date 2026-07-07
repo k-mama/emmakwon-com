@@ -12,12 +12,11 @@ export function PageHomeComposer() {
   return (
     <>
       <HomeMaisonHero
-        title={homeContent.hero.title}
         subtitle={homeContent.hero.subtitle}
         roles={homeContent.hero.roles}
       />
 
-      <SharedSectionShell>
+      <SharedSectionShell className="py-0 pb-16 sm:pb-20">
         <HomeNoticeVideo
           src={homeContent.noticeVideo.src}
           eyebrow={homeContent.noticeVideo.eyebrow}
