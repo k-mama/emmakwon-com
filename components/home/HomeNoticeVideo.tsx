@@ -22,7 +22,7 @@ export function HomeNoticeVideo({
   return (
     <div className="mx-auto max-w-2xl">
       {eyebrow ? (
-        <p className="mb-4 text-center text-xs uppercase tracking-[0.25em] text-eyebrow-label">
+        <p className="mb-4 text-center text-xs uppercase tracking-[0.25em] text-[#F4EEE6]">
           {eyebrow}
         </p>
       ) : null}
