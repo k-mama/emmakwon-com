@@ -1,24 +1,27 @@
-// import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
+import Link from "next/link";
 
 export function HomeMaisonHero({
-  subtitle,
-  roles,
+  eyebrow,
+  hook,
+  href,
 }: {
-  subtitle: string;
-  roles?: string[];
+  eyebrow: string;
+  hook: string;
+  href: string;
 }) {
   return (
     <section className="relative flex items-center justify-center px-6 pt-16 pb-8 text-center sm:pt-20">
-      <div className="relative mx-auto w-fit rounded-full bg-cream-white/90 px-8 py-4 shadow-md backdrop-blur motion-safe:animate-[quiet-reveal_1.2s_ease-out_both] sm:w-full sm:max-w-3xl">
-        {roles && roles.length > 0 ? (
-          <p className="text-[0.6rem] uppercase tracking-[0.3em] text-eyebrow-label sm:text-xs">
-            {roles.join(" · ")}
-          </p>
-        ) : null}
-        <p className="mt-1 text-xs tracking-wide text-body-text sm:text-sm">
-          {subtitle}
+      <Link
+        href={href}
+        className="group mx-auto max-w-2xl motion-safe:animate-[quiet-reveal_1.2s_ease-out_both]"
+      >
+        <p className="text-[0.6rem] uppercase tracking-[0.3em] text-eyebrow-label sm:text-xs">
+          {eyebrow}
         </p>
-      </div>
+        <p className="mt-2 font-display text-xl tracking-tight text-title-primary transition-opacity duration-300 group-hover:opacity-70 sm:text-2xl">
+          {hook}
+        </p>
+      </Link>
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import homeContent from "@/content/page.home.en.json";
+import siteCore from "@/content/global.site-core.en.json";
 
 export const dynamic = "force-static";
 export const alt = "Emma Kwon — Official Site";
@@ -67,7 +67,7 @@ export default function OpengraphImage() {
             textAlign: "center",
           }}
         >
-          {homeContent.hero.subtitle}
+          {siteCore.description}
         </div>
 
         <div

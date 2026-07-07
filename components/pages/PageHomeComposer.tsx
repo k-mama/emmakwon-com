@@ -12,8 +12,9 @@ export function PageHomeComposer() {
   return (
     <>
       <HomeMaisonHero
-        subtitle={homeContent.hero.subtitle}
-        roles={homeContent.hero.roles}
+        eyebrow={homeContent.hero.eyebrow}
+        hook={homeContent.hero.hook}
+        href={homeContent.hero.href}
       />
 
       <SharedSectionShell className="py-0 pb-16 sm:pb-20">
