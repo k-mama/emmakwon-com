@@ -20,7 +20,7 @@ export function HomeNoticeVideo({
   };
 
   return (
-    <div className="mx-auto max-w-5xl">
+    <div className="mx-auto max-w-2xl">
       {eyebrow ? (
         <p className="mb-4 text-center text-xs uppercase tracking-[0.25em] text-eyebrow-label">
           {eyebrow}
@@ -28,7 +28,13 @@ export function HomeNoticeVideo({
       ) : null}
       <div className="overflow-hidden rounded-[2.5rem] shadow-xl">
         <video
-          className="aspect-video w-full bg-obsidian object-cover"
+          // Shows the video at its own native aspect ratio (currently a
+          // 1:1 square source) instead of cropping it into a fixed box.
+          className="block h-auto w-full bg-obsidian"
+          // Previous treatment forced every source into a 16:9 landscape
+          // crop, which cut off a square video's top and bottom. Kept
+          // here in case a widescreen cut is used later:
+          // className="aspect-video w-full bg-obsidian object-cover"
           src={src}
           muted
           autoPlay
