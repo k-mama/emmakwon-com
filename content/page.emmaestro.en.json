@@ -1,6 +1,10 @@
 {
   "eyebrow": "Official music artist brand by Emma Kwon",
   "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "Emma Kwon, as EMMAESTRO"
+  },
   "intro": "Sound drifts through its own room in this house — three albums, twenty songs, floating quietly out into the world.",
   "stats": [
     { "label": "Albums", "value": "3" },

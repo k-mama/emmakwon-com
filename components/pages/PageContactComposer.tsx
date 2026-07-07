@@ -1,3 +1,4 @@
+import Image from "next/image";
 import contactContent from "@/content/page.contact.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
@@ -12,10 +13,21 @@ export function PageContactComposer() {
           eyebrow={contactContent.eyebrow}
           title={contactContent.title}
         >
-          <p className="text-[0.65rem] uppercase tracking-[0.25em] text-eyebrow-label">
-            {contactContent.signature}
-          </p>
-          <p className="mt-4 max-w-xl text-body-text">{contactContent.intro}</p>
+          <div className="flex items-center gap-5">
+            <div className="relative aspect-[4/5] w-16 shrink-0 overflow-hidden rounded-xl shadow-md sm:w-20">
+              <Image
+                src={contactContent.portrait.src}
+                alt={contactContent.portrait.alt}
+                fill
+                sizes="80px"
+                className="object-cover"
+              />
+            </div>
+            <p className="text-[0.65rem] uppercase tracking-[0.25em] text-eyebrow-label">
+              {contactContent.signature}
+            </p>
+          </div>
+          <p className="mt-6 max-w-xl text-body-text">{contactContent.intro}</p>
 
           <ul className="mt-10 grid grid-cols-1 gap-x-10 gap-y-3 text-sm text-body-text sm:grid-cols-2">
             {contactContent.inquiryTypes.map((type) => (

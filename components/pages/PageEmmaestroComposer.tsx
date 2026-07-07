@@ -28,20 +28,34 @@ export function PageEmmaestroComposer() {
           eyebrow={emmaestroContent.eyebrow}
           title={emmaestroContent.title}
         >
-          <p className="max-w-xl text-body-text">{emmaestroContent.intro}</p>
+          <div className="flex flex-col gap-8 sm:flex-row sm:items-start">
+            <div className="relative aspect-[4/5] w-40 shrink-0 overflow-hidden rounded-2xl shadow-md sm:w-48">
+              <Image
+                src={emmaestroContent.candidPhoto.src}
+                alt={emmaestroContent.candidPhoto.alt}
+                fill
+                sizes="(min-width: 640px) 192px, 160px"
+                className="object-cover"
+              />
+            </div>
 
-          <dl className="mt-10 flex flex-wrap gap-x-12 gap-y-6">
-            {emmaestroContent.stats.map((stat) => (
-              <div key={stat.label}>
-                <dt className="text-xs uppercase tracking-[0.2em] text-soft-text">
-                  {stat.label}
-                </dt>
-                <dd className="font-sans text-3xl font-semibold text-title-primary">
-                  {stat.value}
-                </dd>
-              </div>
-            ))}
-          </dl>
+            <div>
+              <p className="max-w-xl text-body-text">{emmaestroContent.intro}</p>
+
+              <dl className="mt-10 flex flex-wrap gap-x-12 gap-y-6">
+                {emmaestroContent.stats.map((stat) => (
+                  <div key={stat.label}>
+                    <dt className="text-xs uppercase tracking-[0.2em] text-soft-text">
+                      {stat.label}
+                    </dt>
+                    <dd className="font-sans text-3xl font-semibold text-title-primary">
+                      {stat.value}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
 
           <h2 className="mt-16 text-xs uppercase tracking-[0.25em] text-eyebrow-label">
             {emmaestroContent.streamingSectionTitle}

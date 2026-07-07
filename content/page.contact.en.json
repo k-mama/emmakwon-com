@@ -1,6 +1,10 @@
 {
   "eyebrow": "Connection point",
   "title": "Contact",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
   "signature": "Emma Kwon — Author · Music Maker · Publisher · Designer",
   "intro": "For book inquiries, creative collaborations, or selected publishing projects, please get in touch through Instagram.",
   "inquiryTypes": [

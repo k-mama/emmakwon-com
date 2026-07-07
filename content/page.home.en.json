@@ -5,6 +5,10 @@
     "roles": ["Author", "Music Maker", "Publisher", "Designer"]
   },
   "houseStatement": "Emma Kwon is the house. Music, memoir, publishing, gallery, and children's worlds live inside it as rooms, each carrying her hand.",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
   "roomEntrances": [
     {
       "key": "born-rare",

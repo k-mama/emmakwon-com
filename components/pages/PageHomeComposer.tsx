@@ -1,6 +1,7 @@
 import homeContent from "@/content/page.home.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
 import { HomeMaisonHero } from "@/components/home/HomeMaisonHero";
+import { HomeIdentityPortrait } from "@/components/home/HomeIdentityPortrait";
 import { HomeRoomEntranceGrid } from "@/components/home/HomeRoomEntranceGrid";
 import { HomeProofStrip } from "@/components/home/HomeProofStrip";
 import { HomeInstagramWindow } from "@/components/home/HomeInstagramWindow";
@@ -15,10 +16,12 @@ export function PageHomeComposer() {
         roles={homeContent.hero.roles}
       />
 
-      <SharedSectionShell className="text-center">
-        <p className="mx-auto max-w-xl rounded-[2rem] bg-cream-white/90 px-8 py-10 font-display text-2xl leading-relaxed text-title-primary shadow-md sm:text-3xl">
-          {homeContent.houseStatement}
-        </p>
+      <SharedSectionShell>
+        <HomeIdentityPortrait
+          src={homeContent.portrait.src}
+          alt={homeContent.portrait.alt}
+          statement={homeContent.houseStatement}
+        />
       </SharedSectionShell>
 
       <SharedSectionShell>
