@@ -1,6 +1,7 @@
 import worksContent from "@/content/page.works.en.json";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
+import { WorksFeaturedVideo } from "@/components/works/WorksFeaturedVideo";
 import { WorksGalleryGrid } from "@/components/works/WorksGalleryGrid";
 // import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
@@ -25,7 +26,17 @@ export function PageWorksComposer() {
           <p className="max-w-xl text-body-text">{worksContent.intro}</p>
         </SharedEditorialPanel>
 
-        <div className="mt-16">
+        <div className="mt-14">
+          <WorksFeaturedVideo
+            src={worksContent.featuredVideo.src}
+            eyebrow={worksContent.featuredVideo.eyebrow}
+            title={worksContent.featuredVideo.title}
+            subtitle={worksContent.featuredVideo.subtitle}
+            note={worksContent.featuredVideo.note}
+          />
+        </div>
+
+        <div className="mt-4">
           <WorksGalleryGrid categories={worksContent.categories} />
         </div>
       </div>

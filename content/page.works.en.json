@@ -2,6 +2,13 @@
   "eyebrow": "A gallery by Emma Kwon",
   "title": "Works",
   "intro": "Objects, packaging, and worlds designed under Emma Kwon's hand. Selected pieces are shown here as they are prepared for the gallery.",
+  "featuredVideo": {
+    "eyebrow": "Studio motion note",
+    "title": "Cyber Goddess, Surfing",
+    "subtitle": "An AI motion study from Emma Kwon's visual studio.",
+    "note": "Shown here as a living fragment from the studio, not a finished campaign film.",
+    "src": "/ad-video/surfing_ai_video_16s.mp4"
+  },
   "categories": [
     {
       "key": "websites",
