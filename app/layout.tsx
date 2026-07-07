@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Baloo_2, Manrope } from "next/font/google";
 import siteCore from "@/content/global.site-core.en.json";
+import seoKeywords from "@/content/global.seo-keywords.en.json";
 import { SiteShell } from "@/components/site/SiteShell";
 import "./globals.css";
 
@@ -22,12 +23,18 @@ export const metadata: Metadata = {
     default: siteCore.defaultTitle,
   },
   description: siteCore.description,
+  keywords: seoKeywords.core,
   openGraph: {
     title: siteCore.defaultTitle,
     description: siteCore.description,
     siteName: siteCore.name,
     locale: siteCore.locale,
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteCore.defaultTitle,
+    description: siteCore.description,
   },
 };
 
