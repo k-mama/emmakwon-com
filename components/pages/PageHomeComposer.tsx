@@ -1,6 +1,7 @@
 import homeContent from "@/content/page.home.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
 import { HomeMaisonHero } from "@/components/home/HomeMaisonHero";
+import { HomeNoticeVideo } from "@/components/home/HomeNoticeVideo";
 import { HomeIdentityPortrait } from "@/components/home/HomeIdentityPortrait";
 import { HomeRoomEntranceGrid } from "@/components/home/HomeRoomEntranceGrid";
 import { HomeProofStrip } from "@/components/home/HomeProofStrip";
@@ -15,6 +16,13 @@ export function PageHomeComposer() {
         subtitle={homeContent.hero.subtitle}
         roles={homeContent.hero.roles}
       />
+
+      <SharedSectionShell>
+        <HomeNoticeVideo
+          src={homeContent.noticeVideo.src}
+          eyebrow={homeContent.noticeVideo.eyebrow}
+        />
+      </SharedSectionShell>
 
       <SharedSectionShell>
         <HomeIdentityPortrait

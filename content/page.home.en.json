@@ -9,6 +9,10 @@
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
+  "noticeVideo": {
+    "eyebrow": "Featured Notice",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
   "roomEntrances": [
     {
       "key": "born-rare",
