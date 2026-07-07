@@ -11,11 +11,7 @@ import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 export function PageHomeComposer() {
   return (
     <>
-      <HomeMaisonHero
-        eyebrow={homeContent.hero.eyebrow}
-        hook={homeContent.hero.hook}
-        href={homeContent.hero.href}
-      />
+      <HomeMaisonHero hook={homeContent.hero.hook} href={homeContent.hero.href} />
 
       <SharedSectionShell className="py-0 pb-16 sm:pb-20">
         <HomeNoticeVideo
