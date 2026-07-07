@@ -15,11 +15,7 @@ export function WorksFeaturedVideo({
 }) {
   return (
     <div className="mx-auto max-w-2xl">
-      <p className="mb-4 text-center text-xs uppercase tracking-[0.25em] text-eyebrow-label">
-        {eyebrow}
-      </p>
-
-      <div className="overflow-hidden rounded-[2rem] border border-champagne/25 bg-obsidian shadow-md">
+      <div className="relative overflow-hidden rounded-[2rem] border border-champagne/25 bg-obsidian shadow-md">
         <video
           className="aspect-video w-full object-cover"
           src={src}
@@ -29,13 +25,21 @@ export function WorksFeaturedVideo({
           playsInline
           controls
         />
+
+        <div className="pointer-events-none absolute inset-x-0 top-0 bg-gradient-to-b from-obsidian/85 via-obsidian/25 to-transparent p-5 sm:p-7">
+          <p className="text-[0.6rem] uppercase tracking-[0.3em] text-champagne/80">
+            {eyebrow}
+          </p>
+          <h2 className="mt-2 font-display text-lg text-pearl-white sm:text-xl">
+            {title}
+          </h2>
+          <p className="mt-1 max-w-xs text-xs text-champagne/70 sm:text-sm">
+            {subtitle}
+          </p>
+        </div>
       </div>
 
-      <h2 className="mt-6 text-center font-display text-2xl text-title-primary">
-        {title}
-      </h2>
-      <p className="mt-2 text-center text-sm text-body-text">{subtitle}</p>
-      <p className="mt-3 text-center text-xs text-soft-text">{note}</p>
+      <p className="mt-4 text-center text-xs text-soft-text">{note}</p>
 
       <VisualChampagneLine className="mt-12" />
     </div>
