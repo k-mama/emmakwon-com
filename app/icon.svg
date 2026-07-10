@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e97a0a" />
+      <stop offset="25%" stop-color="#f38da1" />
+      <stop offset="50%" stop-color="#b15fd1" />
+      <stop offset="75%" stop-color="#8fdae0" />
+      <stop offset="100%" stop-color="#d8c6a3" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#070707" />
+  <g fill="none" stroke="url(#g)" stroke-width="1.6" stroke-linecap="round">
+    <circle cx="32" cy="32" r="21" />
+    <ellipse cx="32" cy="32" rx="8" ry="21" />
+    <ellipse cx="32" cy="32" rx="16" ry="21" />
+    <line x1="11" y1="32" x2="53" y2="32" />
+    <path d="M13.5 21 Q32 26 50.5 21" />
+    <path d="M13.5 43 Q32 38 50.5 43" />
+  </g>
+</svg>
