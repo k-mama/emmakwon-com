@@ -1,0 +1,60 @@
+{
+  "eyebrow": "A gallery by Emma Kwon",
+  "title": "Works",
+  "intro": "Objects, packaging, and worlds designed under Emma Kwon's hand. Selected pieces are shown here as they are prepared for the gallery.",
+  "featuredVideo": {
+    "eyebrow": "Studio motion note",
+    "title": "Cyber Goddess, Surfing",
+    "subtitle": "An AI motion piece from Emma Kwon's visual studio.",
+    "note": "Shown here as a living fragment from the studio, not a finished campaign film.",
+    "src": "/ad-video/surfing_ai_video_16s.mp4"
+  },
+  "categories": [
+    {
+      "key": "websites",
+      "label": "Websites",
+      "items": [
+        { "title": "DUFERI", "note": "Homepage", "tag": "Live Project" },
+        { "title": "Esther Cho", "note": "Homepage", "tag": "Live Project" }
+      ]
+    },
+    {
+      "key": "cosmetic-packaging",
+      "label": "Cosmetic Packaging",
+      "items": [
+        { "title": "DUFERI", "note": "Cosmetic packaging", "tag": "Completed Work" },
+        { "title": "DUFERI HOMME", "note": "Package concepts", "tag": "Concept Development" }
+      ]
+    },
+    {
+      "key": "cosmetic-containers",
+      "label": "Cosmetic Containers",
+      "items": [
+        { "title": "Container Design", "note": "In preparation", "tag": "In Development" }
+      ]
+    },
+    {
+      "key": "bag-design",
+      "label": "Bag Design",
+      "items": [
+        { "title": "Bag Design", "note": "In preparation", "tag": "In Development" }
+      ]
+    },
+    {
+      "key": "publishing-projects",
+      "label": "Publishing Projects",
+      "items": [
+        { "title": "BORN RARE", "note": "Literary memoir", "tag": "Published Work" },
+        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "English, French, German", "tag": "Published Work" },
+        { "title": "Esther Cho", "note": "Book project", "tag": "In Production" }
+      ]
+    },
+    {
+      "key": "brand-objects",
+      "label": "Brand Objects",
+      "items": [
+        { "title": "Brand Objects", "note": "In preparation", "tag": "In Development" }
+      ]
+    }
+  ]
+}

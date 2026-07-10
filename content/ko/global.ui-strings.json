@@ -1,0 +1,7 @@
+{
+  "menuOpenLabel": "메뉴",
+  "menuCloseLabel": "닫기",
+  "menuToggleAriaLabel": "내비게이션 메뉴 열기 및 닫기",
+  "languageSwitcherAriaLabel": "언어 변경",
+  "copyrightTemplate": "© {year} Emma Kwon. 모든 권리 보유."
+}

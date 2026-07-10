@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Emma Kwonによる文学的回想録",
+  "title": "BORN RARE",
+  "cover": "/born-rare/born-rare-book-cover.jpg",
+  "intro": "生き抜くこと、幼い日々、そして輝き——かつて誤解されていたものを、かたちあるものへと変えていった記録。",
+  "editionsSectionTitle": "Amazonで購入可能",
+  "editions": [
+    { "label": "Kindle", "linkKey": "kindleUrl" },
+    { "label": "ペーパーバック", "linkKey": "paperbackUrl" },
+    { "label": "ハードカバー", "linkKey": "hardcoverUrl" }
+  ],
+  "instagramNote": "BORN RAREの新しいノートや章の投稿は、InstagramでEmmaをフォローしてください。"
+}

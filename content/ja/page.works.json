@@ -1,0 +1,60 @@
+{
+  "eyebrow": "Emma Kwonによるギャラリー",
+  "title": "作品",
+  "intro": "Emma Kwonの手によってデザインされたオブジェ、パッケージ、そして世界。ギャラリーへの準備が整った作品から、順次ここに紹介しています。",
+  "featuredVideo": {
+    "eyebrow": "スタジオ・モーションノート",
+    "title": "Cyber Goddess, Surfing",
+    "subtitle": "Emma Kwonのビジュアルスタジオによる、AIモーション作品。",
+    "note": "完成されたキャンペーン映像ではなく、スタジオから届いた生きた断片として、ここに紹介しています。",
+    "src": "/ad-video/surfing_ai_video_16s.mp4"
+  },
+  "categories": [
+    {
+      "key": "websites",
+      "label": "ウェブサイト",
+      "items": [
+        { "title": "DUFERI", "note": "ホームページ", "tag": "公開中のプロジェクト" },
+        { "title": "Esther Cho", "note": "ホームページ", "tag": "公開中のプロジェクト" }
+      ]
+    },
+    {
+      "key": "cosmetic-packaging",
+      "label": "コスメティックパッケージ",
+      "items": [
+        { "title": "DUFERI", "note": "コスメティックパッケージ", "tag": "完成作品" },
+        { "title": "DUFERI HOMME", "note": "パッケージコンセプト", "tag": "コンセプト開発中" }
+      ]
+    },
+    {
+      "key": "cosmetic-containers",
+      "label": "コスメティックコンテナ",
+      "items": [
+        { "title": "コンテナデザイン", "note": "準備中", "tag": "開発中" }
+      ]
+    },
+    {
+      "key": "bag-design",
+      "label": "バッグデザイン",
+      "items": [
+        { "title": "バッグデザイン", "note": "準備中", "tag": "開発中" }
+      ]
+    },
+    {
+      "key": "publishing-projects",
+      "label": "出版プロジェクト",
+      "items": [
+        { "title": "BORN RARE", "note": "文学的回想録", "tag": "刊行作品" },
+        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "英語、フランス語、ドイツ語", "tag": "刊行作品" },
+        { "title": "Esther Cho", "note": "書籍プロジェクト", "tag": "制作中" }
+      ]
+    },
+    {
+      "key": "brand-objects",
+      "label": "ブランドオブジェ",
+      "items": [
+        { "title": "ブランドオブジェ", "note": "準備中", "tag": "開発中" }
+      ]
+    }
+  ]
+}

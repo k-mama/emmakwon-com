@@ -1,0 +1,7 @@
+{
+  "menuOpenLabel": "菜单",
+  "menuCloseLabel": "关闭",
+  "menuToggleAriaLabel": "切换导航菜单",
+  "languageSwitcherAriaLabel": "切换语言",
+  "copyrightTemplate": "© {year} Emma Kwon. 版权所有，保留一切权利。"
+}

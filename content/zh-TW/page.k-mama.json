@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Emma Kwon 的兒童內容與家庭創作品牌",
+  "title": "K-MAMA",
+  "intro": "一個獻給年輕心靈的溫暖世界，用這棟房子裡一貫的用心打造而成。",
+  "sections": [
+    {
+      "key": "coloring-books",
+      "label": "著色書",
+      "description": "K-MAMA's Luxury Fashion Coloring Book，已推出三種語言版本。",
+      "editions": [
+        {
+          "label": "英文版",
+          "linkKey": "english",
+          "cover": "/k-mama/k-mama-coloring-book-english-cover.jpg"
+        },
+        {
+          "label": "法文版",
+          "linkKey": "french",
+          "cover": "/k-mama/k-mama-coloring-book-french-cover.jpg"
+        },
+        {
+          "label": "德文版",
+          "linkKey": "german",
+          "cover": "/k-mama/k-mama-coloring-book-german-cover.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kids-songs",
+      "label": "兒童歌曲",
+      "description": "目前已發行六首歌曲，溫暖而明亮。",
+      "status": "串流連結整理中"
+    },
+    {
+      "key": "learning-comics",
+      "label": "學習漫畫影片系列",
+      "description": "製作中，將於未來推出。"
+    },
+    {
+      "key": "reels-wave-kids",
+      "label": "Reels Wave Kids",
+      "description": "K-MAMA 旗下的 YouTube 頻道，帶來溫暖的兒歌與童謠。",
+      "logo": "/k-mama/reels-wave-kids-logo.png",
+      "youtubeCta": "在 YouTube 上觀看",
+      "youtubeLinkKey": "reelsWaveKids"
+    },
+    {
+      "key": "dj-hamahama",
+      "label": "DJ hamahama",
+      "description": "K-MAMA 旗下的 YouTube 頻道，發布充滿活力與趣味的免費 Fortnite 應援曲。",
+      "logo": "/k-mama/dj-hamahama-logo.png",
+      "youtubeCta": "在 YouTube 上觀看",
+      "youtubeLinkKey": "djHamahama"
+    }
+  ]
+}

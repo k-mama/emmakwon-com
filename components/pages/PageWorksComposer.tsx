@@ -1,23 +1,15 @@
-import worksContent from "@/content/page.works.en.json";
+import { getContent, type WorksContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
 import { WorksFeaturedVideo } from "@/components/works/WorksFeaturedVideo";
 import { WorksGalleryGrid } from "@/components/works/WorksGalleryGrid";
-// import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
-export function PageWorksComposer() {
+export function PageWorksComposer({ locale }: { locale: Locale }) {
+  const worksContent = getContent<WorksContent>(locale, "page.works");
+
   return (
     <SharedSectionShell className="min-h-screen">
-      {/* Soft room field background — reverted to flat cream-white per request, colors kept here for later use
-      <VisualSoftRoomField
-        colors={[
-          "var(--color-playful-violet)",
-          "var(--color-sky-aqua)",
-          "var(--color-clear-blue)",
-          "var(--color-soft-blush)",
-        ]}
-      />
-      */}
       <div className="rounded-[2.5rem] bg-cream-white p-10 text-body-text shadow-md sm:p-14">
         <SharedEditorialPanel
           eyebrow={worksContent.eyebrow}

@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Memorias literarias de Emma Kwon",
+  "title": "BORN RARE",
+  "cover": "/born-rare/born-rare-book-cover.jpg",
+  "intro": "Memorias de supervivencia, infancia y luz: el registro de convertir en obra lo que alguna vez fue mal interpretado.",
+  "editionsSectionTitle": "Disponible en Amazon",
+  "editions": [
+    { "label": "Kindle", "linkKey": "kindleUrl" },
+    { "label": "Tapa blanda", "linkKey": "paperbackUrl" },
+    { "label": "Tapa dura", "linkKey": "hardcoverUrl" }
+  ],
+  "instagramNote": "Para nuevas notas y publicaciones de capítulos de BORN RARE, siga a Emma en Instagram."
+}

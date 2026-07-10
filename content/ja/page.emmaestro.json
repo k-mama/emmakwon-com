@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Emma Kwonによる公式音楽アーティストブランド",
+  "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "EMMAESTROとしてのEmma Kwon"
+  },
+  "intro": "この家の中で、音はひとつの部屋を漂う——アルバム3枚、楽曲20曲が、静かに世界へと流れ出していく。",
+  "stats": [
+    { "label": "アルバム", "value": "3" },
+    { "label": "楽曲", "value": "20" },
+    { "label": "到達範囲", "value": "世界中" }
+  ],
+  "streamingSectionTitle": "聴く",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music",
+  "albums": [
+    {
+      "title": "AUSSIE",
+      "cover": "/emmaestro/emmaestro-aussie-album-cover.jpg",
+      "linkKey": "aussie"
+    },
+    {
+      "title": "SLY FAIRY",
+      "cover": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg",
+      "linkKey": "slyFairy"
+    },
+    {
+      "title": "No Deadline To Be Okay",
+      "cover": "/emmaestro/emmaestro-no-deadline-to-be-okay-album-cover.jpg",
+      "linkKey": "noDeadlineToBeOkay"
+    }
+  ]
+}

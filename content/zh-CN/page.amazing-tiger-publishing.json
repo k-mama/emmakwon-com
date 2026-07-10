@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Emma Kwon 旗下出版品牌",
+  "title": "Amazing Tiger Publishing",
+  "intro": "Amazing Tiger Publishing 承载着 Emma Kwon 自身作品背后的制作工作,也承载着与她并肩创作的作者们。",
+  "projects": [
+    {
+      "title": "BORN RARE",
+      "role": "Emma Kwon 的文学回忆录",
+      "href": "/born-rare"
+    },
+    {
+      "title": "K-MAMA's Luxury Fashion Coloring Book",
+      "role": "已出版英语、法语、德语版本",
+      "href": "/k-mama"
+    },
+    {
+      "title": "Esther Cho",
+      "role": "制作中的作者项目"
+    }
+  ],
+  "closing": "更多作者项目正在筹备中。这个出版品牌选择缓慢生长,且是有意为之。"
+}

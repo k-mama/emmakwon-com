@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Punto de contacto",
+  "title": "Contacto",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "signature": "Emma Kwon — Autora · Creadora Musical · Editora · Diseñadora",
+  "intro": "Para consultas sobre libros, colaboraciones creativas o proyectos editoriales seleccionados, por favor comuníquese a través de Instagram.",
+  "inquiryTypes": [
+    "Consulta Editorial",
+    "Consulta de Producción de Libros",
+    "Consulta Musical",
+    "Consulta de Sitios Web y Trabajo de Marca",
+    "Consulta de Entrevistas o Medios",
+    "Colaboración con K-MAMA",
+    "Consulta sobre Obras",
+    "Mensaje General"
+  ],
+  "instagramCta": "Contacte a Emma por Instagram"
+}

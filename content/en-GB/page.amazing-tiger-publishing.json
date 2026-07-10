@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Publishing imprint by Emma Kwon",
+  "title": "Amazing Tiger Publishing",
+  "intro": "Amazing Tiger Publishing carries the production behind Emma Kwon's own work, and the authors who build alongside her.",
+  "projects": [
+    {
+      "title": "BORN RARE",
+      "role": "Literary memoir by Emma Kwon",
+      "href": "/born-rare"
+    },
+    {
+      "title": "K-MAMA's Luxury Fashion Coloring Book",
+      "role": "Published in English, French, and German",
+      "href": "/k-mama"
+    },
+    {
+      "title": "Esther Cho",
+      "role": "Author project in production"
+    }
+  ],
+  "closing": "Future author projects are in development. This imprint grows slowly and on purpose."
+}

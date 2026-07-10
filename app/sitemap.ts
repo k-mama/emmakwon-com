@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import siteCore from "@/content/global.site-core.en.json";
+import siteCore from "@/content/en/global.site-core.json";
+import { locales, defaultLocale } from "@/lib/i18n/locales";
 
 export const dynamic = "force-static";
 
@@ -14,10 +15,25 @@ const routes: { path: string; priority: number }[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(({ path, priority }) => ({
-    url: `${siteCore.domain}${path}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly",
-    priority,
-  }));
+  const entries: MetadataRoute.Sitemap = [];
+
+  for (const { path, priority } of routes) {
+    const languages: Record<string, string> = {};
+    for (const locale of locales) {
+      languages[locale] = `${siteCore.domain}/${locale}${path}`;
+    }
+    languages["x-default"] = `${siteCore.domain}/${defaultLocale}${path}`;
+
+    for (const locale of locales) {
+      entries.push({
+        url: `${siteCore.domain}/${locale}${path}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority,
+        alternates: { languages },
+      });
+    }
+  }
+
+  return entries;
 }

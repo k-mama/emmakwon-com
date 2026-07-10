@@ -1,24 +1,18 @@
 import Link from "next/link";
-import publishingContent from "@/content/page.amazing-tiger-publishing.en.json";
+import { getContent, type PublishingContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
 import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
-// import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
-export function PageAmazingTigerPublishingComposer() {
+export function PageAmazingTigerPublishingComposer({ locale }: { locale: Locale }) {
+  const publishingContent = getContent<PublishingContent>(
+    locale,
+    "page.amazing-tiger-publishing",
+  );
+
   return (
     <SharedSectionShell className="min-h-screen">
-      {/* Soft room field background — reverted to flat cream-white per request, colors kept here for later use
-      <VisualSoftRoomField
-        deep
-        colors={[
-          "var(--color-sunny-orange)",
-          "var(--color-tiger-gold)",
-          "var(--color-cream-white)",
-          "var(--color-soft-ink)",
-        ]}
-      />
-      */}
       <div className="rounded-[2.5rem] bg-cream-white p-10 text-body-text shadow-md sm:p-14">
         <SharedEditorialPanel
           eyebrow={publishingContent.eyebrow}
@@ -50,7 +44,7 @@ export function PageAmazingTigerPublishingComposer() {
                 >
                   {project.href ? (
                     <Link
-                      href={project.href}
+                      href={`/${locale}${project.href}`}
                       className="block transition-opacity duration-300 hover:opacity-70"
                     >
                       {content}

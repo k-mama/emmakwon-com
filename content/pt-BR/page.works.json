@@ -1,0 +1,60 @@
+{
+  "eyebrow": "Uma galeria de Emma Kwon",
+  "title": "Obras",
+  "intro": "Objetos, embalagens e mundos projetados sob as mãos de Emma Kwon. Peças selecionadas são exibidas aqui conforme são preparadas para a galeria.",
+  "featuredVideo": {
+    "eyebrow": "Nota de movimento do estúdio",
+    "title": "Cyber Goddess, Surfing",
+    "subtitle": "Uma peça de movimento com IA do estúdio visual de Emma Kwon.",
+    "note": "Exibido aqui como um fragmento vivo do estúdio, não como um filme de campanha finalizado.",
+    "src": "/ad-video/surfing_ai_video_16s.mp4"
+  },
+  "categories": [
+    {
+      "key": "websites",
+      "label": "Sites",
+      "items": [
+        { "title": "DUFERI", "note": "Página inicial", "tag": "Projeto no Ar" },
+        { "title": "Esther Cho", "note": "Página inicial", "tag": "Projeto no Ar" }
+      ]
+    },
+    {
+      "key": "cosmetic-packaging",
+      "label": "Embalagens Cosméticas",
+      "items": [
+        { "title": "DUFERI", "note": "Embalagem cosmética", "tag": "Trabalho Concluído" },
+        { "title": "DUFERI HOMME", "note": "Conceitos de embalagem", "tag": "Desenvolvimento de Conceito" }
+      ]
+    },
+    {
+      "key": "cosmetic-containers",
+      "label": "Recipientes Cosméticos",
+      "items": [
+        { "title": "Design de Recipientes", "note": "Em preparação", "tag": "Em Desenvolvimento" }
+      ]
+    },
+    {
+      "key": "bag-design",
+      "label": "Design de Bolsas",
+      "items": [
+        { "title": "Design de Bolsas", "note": "Em preparação", "tag": "Em Desenvolvimento" }
+      ]
+    },
+    {
+      "key": "publishing-projects",
+      "label": "Projetos Editoriais",
+      "items": [
+        { "title": "BORN RARE", "note": "Memórias literárias", "tag": "Trabalho Publicado" },
+        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "Inglês, francês, alemão", "tag": "Trabalho Publicado" },
+        { "title": "Esther Cho", "note": "Projeto de livro", "tag": "Em Produção" }
+      ]
+    },
+    {
+      "key": "brand-objects",
+      "label": "Objetos de Marca",
+      "items": [
+        { "title": "Objetos de Marca", "note": "Em preparação", "tag": "Em Desenvolvimento" }
+      ]
+    }
+  ]
+}

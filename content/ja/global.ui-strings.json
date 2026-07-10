@@ -1,0 +1,7 @@
+{
+  "menuOpenLabel": "メニュー",
+  "menuCloseLabel": "閉じる",
+  "menuToggleAriaLabel": "ナビゲーションメニューの開閉",
+  "languageSwitcherAriaLabel": "言語を変更",
+  "copyrightTemplate": "© {year} Emma Kwon. 全著作権所有。"
+}

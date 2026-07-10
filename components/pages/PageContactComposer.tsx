@@ -1,11 +1,14 @@
 import Image from "next/image";
-import contactContent from "@/content/page.contact.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
+import { getContent, type ContactContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
 import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
 
-export function PageContactComposer() {
+export function PageContactComposer({ locale }: { locale: Locale }) {
+  const contactContent = getContent<ContactContent>(locale, "page.contact");
+
   return (
     <SharedSectionShell className="min-h-screen">
       <div className="rounded-[2.5rem] bg-cream-white p-10 text-body-text shadow-md sm:p-14">

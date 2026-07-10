@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "hook": "O sorriso era impecável. O que ele escondia virou um livro.",
+    "href": "/born-rare"
+  },
+  "houseStatement": "Emma Kwon é a casa. Música, memórias, publicação, galeria e mundos infantis vivem nela como cômodos, cada um carregando a marca das suas mãos.",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "noticeVideo": {
+    "eyebrow": "Aviso em Destaque",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
+  "roomEntrances": [
+    {
+      "key": "born-rare",
+      "kicker": "Memórias literárias",
+      "label": "BORN RARE",
+      "description": "Uma história contada com suas próprias palavras.",
+      "href": "/born-rare"
+    },
+    {
+      "key": "emmaestro",
+      "kicker": "Música",
+      "label": "EMMAESTRO",
+      "description": "Três álbuns. Vinte músicas. No mundo todo.",
+      "href": "/emmaestro"
+    },
+    {
+      "key": "amazing-tiger-publishing",
+      "kicker": "Selo editorial",
+      "label": "Amazing Tiger Publishing",
+      "description": "Livros feitos com cuidado.",
+      "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "works",
+      "kicker": "Galeria",
+      "label": "Obras",
+      "description": "Objetos, embalagens e mundos projetados.",
+      "href": "/works"
+    },
+    {
+      "key": "k-mama",
+      "kicker": "Mundo infantil",
+      "label": "K-MAMA",
+      "description": "Histórias acolhedoras para corações jovens.",
+      "href": "/k-mama"
+    }
+  ],
+  "proofStrip": [
+    "3 álbuns",
+    "20 músicas",
+    "Streaming no mundo todo",
+    "BORN RARE, memórias publicadas",
+    "K-MAMA, publicado em três idiomas"
+  ],
+  "instagramWindow": {
+    "label": "A Janela Viva",
+    "description": "Notas, capítulos e processo, compartilhados conforme acontecem."
+  }
+}

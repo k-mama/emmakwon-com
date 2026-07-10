@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "hook": "The smile was flawless. What it hid became a book.",
+    "href": "/born-rare"
+  },
+  "houseStatement": "Emma Kwon is the house. Music, memoir, publishing, gallery, and children's worlds live within it as rooms, each carrying her hand.",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "noticeVideo": {
+    "eyebrow": "Featured Notice",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
+  "roomEntrances": [
+    {
+      "key": "born-rare",
+      "kicker": "Literary memoir",
+      "label": "BORN RARE",
+      "description": "A story told in her own words.",
+      "href": "/born-rare"
+    },
+    {
+      "key": "emmaestro",
+      "kicker": "Music",
+      "label": "EMMAESTRO",
+      "description": "Three albums. Twenty songs. Worldwide.",
+      "href": "/emmaestro"
+    },
+    {
+      "key": "amazing-tiger-publishing",
+      "kicker": "Publishing imprint",
+      "label": "Amazing Tiger Publishing",
+      "description": "Books built with care.",
+      "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "works",
+      "kicker": "Gallery",
+      "label": "Works",
+      "description": "Objects, packaging, and designed worlds.",
+      "href": "/works"
+    },
+    {
+      "key": "k-mama",
+      "kicker": "Children's world",
+      "label": "K-MAMA",
+      "description": "Warm stories for young hearts.",
+      "href": "/k-mama"
+    }
+  ],
+  "proofStrip": [
+    "3 albums",
+    "20 songs",
+    "Streaming worldwide",
+    "BORN RARE, published memoir",
+    "K-MAMA, published in three languages"
+  ],
+  "instagramWindow": {
+    "label": "The Living Window",
+    "description": "Ongoing notes, chapters, and process, shared as they unfold."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "menuOpenLabel": "Menú",
+  "menuCloseLabel": "Cerrar",
+  "menuToggleAriaLabel": "Alternar menú de navegación",
+  "languageSwitcherAriaLabel": "Cambiar idioma",
+  "copyrightTemplate": "© {year} Emma Kwon. Todos los derechos reservados."
+}

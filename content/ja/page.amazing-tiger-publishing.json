@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Emma Kwonによる出版インプリント",
+  "title": "Amazing Tiger Publishing",
+  "intro": "Amazing Tiger Publishingは、Emma Kwon自身の作品、そして彼女とともに歩む著者たちの制作を支えています。",
+  "projects": [
+    {
+      "title": "BORN RARE",
+      "role": "Emma Kwonによる文学的回想録",
+      "href": "/born-rare"
+    },
+    {
+      "title": "K-MAMA's Luxury Fashion Coloring Book",
+      "role": "英語、フランス語、ドイツ語で刊行",
+      "href": "/k-mama"
+    },
+    {
+      "title": "Esther Cho",
+      "role": "制作中の著者プロジェクト"
+    }
+  ],
+  "closing": "今後の著者プロジェクトも進行中です。このインプリントは、あえてゆっくりと育っています。"
+}

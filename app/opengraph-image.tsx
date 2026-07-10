@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import siteCore from "@/content/global.site-core.en.json";
+import siteCore from "@/content/en/global.site-core.json";
 
 export const dynamic = "force-static";
 export const alt = "Emma Kwon — Official Site";

@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Emma Kwon 旗下官方音乐品牌",
+  "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "Emma Kwon,化身音乐人 EMMAESTRO"
+  },
+  "intro": "在这座宅邸里,声音自有其房间——三张专辑,二十首歌曲,静静飘向世界。",
+  "stats": [
+    { "label": "专辑", "value": "3" },
+    { "label": "歌曲", "value": "20" },
+    { "label": "覆盖范围", "value": "全球" }
+  ],
+  "streamingSectionTitle": "聆听",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music",
+  "albums": [
+    {
+      "title": "AUSSIE",
+      "cover": "/emmaestro/emmaestro-aussie-album-cover.jpg",
+      "linkKey": "aussie"
+    },
+    {
+      "title": "SLY FAIRY",
+      "cover": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg",
+      "linkKey": "slyFairy"
+    },
+    {
+      "title": "No Deadline To Be Okay",
+      "cover": "/emmaestro/emmaestro-no-deadline-to-be-okay-album-cover.jpg",
+      "linkKey": "noDeadlineToBeOkay"
+    }
+  ]
+}

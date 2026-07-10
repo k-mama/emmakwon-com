@@ -1,28 +1,20 @@
 import Image from "next/image";
-import emmaestroContent from "@/content/page.emmaestro.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
+import { getContent, type EmmaestroContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
 import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
-// import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
 type AlbumLinks = { spotifyUrl: string; appleMusicUrl: string | null };
 
 const ALBUM_LINKS: Record<string, AlbumLinks> = officialLinks.emmaestro.albums;
 
-export function PageEmmaestroComposer() {
+export function PageEmmaestroComposer({ locale }: { locale: Locale }) {
+  const emmaestroContent = getContent<EmmaestroContent>(locale, "page.emmaestro");
+
   return (
     <SharedSectionShell className="min-h-screen">
-      {/* Soft room field background — reverted to flat cream-white per request, colors kept here for later use
-      <VisualSoftRoomField
-        colors={[
-          "var(--color-ice-cream-lavender)",
-          "var(--color-clear-blue)",
-          "var(--color-soft-periwinkle)",
-          "var(--color-mint-light)",
-        ]}
-      />
-      */}
       <div className="rounded-[2.5rem] bg-cream-white p-10 text-body-text shadow-md sm:p-14">
         <SharedEditorialPanel
           eyebrow={emmaestroContent.eyebrow}

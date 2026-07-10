@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Emma Kwonによる子供向けコンテンツとファミリー・クリエイティブブランド",
+  "title": "K-MAMA",
+  "intro": "小さな心のための温かな世界。この家の他のすべてと同じ丁寧さで作られています。",
+  "sections": [
+    {
+      "key": "coloring-books",
+      "label": "塗り絵",
+      "description": "K-MAMA's Luxury Fashion Coloring Book。3つの言語版で刊行されています。",
+      "editions": [
+        {
+          "label": "英語版",
+          "linkKey": "english",
+          "cover": "/k-mama/k-mama-coloring-book-english-cover.jpg"
+        },
+        {
+          "label": "フランス語版",
+          "linkKey": "french",
+          "cover": "/k-mama/k-mama-coloring-book-french-cover.jpg"
+        },
+        {
+          "label": "ドイツ語版",
+          "linkKey": "german",
+          "cover": "/k-mama/k-mama-coloring-book-german-cover.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kids-songs",
+      "label": "キッズソング",
+      "description": "これまでに6曲をリリース。温かく、明るいメロディー。",
+      "status": "配信リンクは準備中です"
+    },
+    {
+      "key": "learning-comics",
+      "label": "ラーニング・コミック・ビデオシリーズ",
+      "description": "現在制作中。今後のシーズンに登場予定です。"
+    },
+    {
+      "key": "reels-wave-kids",
+      "label": "Reels Wave Kids",
+      "description": "K-MAMAのYouTubeチャンネルとして、温かな童謡やキッズソングを届けています。",
+      "logo": "/k-mama/reels-wave-kids-logo.png",
+      "youtubeCta": "YouTubeで見る",
+      "youtubeLinkKey": "reelsWaveKids"
+    },
+    {
+      "key": "dj-hamahama",
+      "label": "DJ hamahama",
+      "description": "K-MAMAのYouTubeチャンネルとして、元気と遊び心にあふれた無料のフォートナイト・アンセムを配信しています。",
+      "logo": "/k-mama/dj-hamahama-logo.png",
+      "youtubeCta": "YouTubeで見る",
+      "youtubeLinkKey": "djHamahama"
+    }
+  ]
+}

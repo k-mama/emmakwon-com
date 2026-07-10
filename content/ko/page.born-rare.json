@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Emma Kwon의 문학적 회고록",
+  "title": "BORN RARE",
+  "cover": "/born-rare/born-rare-book-cover.jpg",
+  "intro": "생존과 어린 시절, 그리고 밝음에 관한 회고록 — 한때 오해받았던 것을 하나의 작품으로 빚어낸 기록.",
+  "editionsSectionTitle": "Amazon에서 만나볼 수 있습니다",
+  "editions": [
+    { "label": "Kindle", "linkKey": "kindleUrl" },
+    { "label": "페이퍼백", "linkKey": "paperbackUrl" },
+    { "label": "하드커버", "linkKey": "hardcoverUrl" }
+  ],
+  "instagramNote": "BORN RARE의 새로운 기록과 챕터 소식은 Emma의 Instagram에서 만나보실 수 있습니다."
+}

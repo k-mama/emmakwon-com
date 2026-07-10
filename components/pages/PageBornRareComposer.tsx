@@ -1,10 +1,10 @@
 import Image from "next/image";
-import bornRareContent from "@/content/page.born-rare.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
+import { getContent, type BornRareContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 import { SharedEditorialPanel } from "@/components/sections/SharedEditorialPanel";
 import { VisualHighlightMark } from "@/components/visual/VisualHighlightMark";
-// import { VisualSoftRoomField } from "@/components/visual/VisualSoftRoomField";
 
 const EDITION_URLS: Record<string, string | null> = {
   kindleUrl: officialLinks.bornRare.kindleUrl,
@@ -12,20 +12,11 @@ const EDITION_URLS: Record<string, string | null> = {
   hardcoverUrl: officialLinks.bornRare.hardcoverUrl,
 };
 
-export function PageBornRareComposer() {
+export function PageBornRareComposer({ locale }: { locale: Locale }) {
+  const bornRareContent = getContent<BornRareContent>(locale, "page.born-rare");
+
   return (
     <SharedSectionShell className="min-h-screen">
-      {/* Soft room field background — reverted to flat cream-white per request, colors kept here for later use
-      <VisualSoftRoomField
-        deep
-        colors={[
-          "var(--color-soft-blush)",
-          "var(--color-playful-violet)",
-          "var(--color-cream-white)",
-          "var(--color-soft-ink)",
-        ]}
-      />
-      */}
       <div className="rounded-[2.5rem] bg-cream-white p-10 text-body-text shadow-md sm:p-14">
         <div className="grid gap-10 sm:grid-cols-[minmax(0,220px)_1fr] sm:items-start">
           <div className="relative mx-auto aspect-[2/3] w-full max-w-[220px] overflow-hidden rounded-xl shadow-md">

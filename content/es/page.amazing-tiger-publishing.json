@@ -1,0 +1,22 @@
+{
+  "eyebrow": "Sello editorial de Emma Kwon",
+  "title": "Amazing Tiger Publishing",
+  "intro": "Amazing Tiger Publishing impulsa la producción detrás de la propia obra de Emma Kwon, y la de los autores que construyen junto a ella.",
+  "projects": [
+    {
+      "title": "BORN RARE",
+      "role": "Memorias literarias de Emma Kwon",
+      "href": "/born-rare"
+    },
+    {
+      "title": "K-MAMA's Luxury Fashion Coloring Book",
+      "role": "Publicado en inglés, francés y alemán",
+      "href": "/k-mama"
+    },
+    {
+      "title": "Esther Cho",
+      "role": "Proyecto de autora en producción"
+    }
+  ],
+  "closing": "Futuros proyectos de autores están en desarrollo. Este sello crece despacio, y a propósito."
+}

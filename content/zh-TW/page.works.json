@@ -1,0 +1,60 @@
+{
+  "eyebrow": "Emma Kwon 的畫廊",
+  "title": "作品",
+  "intro": "物件、包裝與世界，皆出自 Emma Kwon 之手所設計。精選作品將隨著畫廊籌備逐步在此呈現。",
+  "featuredVideo": {
+    "eyebrow": "工作室動態筆記",
+    "title": "Cyber Goddess, Surfing",
+    "subtitle": "一件來自 Emma Kwon 視覺工作室的 AI 動態作品。",
+    "note": "此處呈現的，是工作室裡尚在生長的片段，而非完成的宣傳影片。",
+    "src": "/ad-video/surfing_ai_video_16s.mp4"
+  },
+  "categories": [
+    {
+      "key": "websites",
+      "label": "網站",
+      "items": [
+        { "title": "DUFERI", "note": "首頁", "tag": "上線專案" },
+        { "title": "Esther Cho", "note": "首頁", "tag": "上線專案" }
+      ]
+    },
+    {
+      "key": "cosmetic-packaging",
+      "label": "化妝品包裝",
+      "items": [
+        { "title": "DUFERI", "note": "化妝品包裝", "tag": "已完成作品" },
+        { "title": "DUFERI HOMME", "note": "包裝概念", "tag": "概念開發中" }
+      ]
+    },
+    {
+      "key": "cosmetic-containers",
+      "label": "化妝品容器",
+      "items": [
+        { "title": "容器設計", "note": "籌備中", "tag": "開發中" }
+      ]
+    },
+    {
+      "key": "bag-design",
+      "label": "包款設計",
+      "items": [
+        { "title": "包款設計", "note": "籌備中", "tag": "開發中" }
+      ]
+    },
+    {
+      "key": "publishing-projects",
+      "label": "出版計畫",
+      "items": [
+        { "title": "BORN RARE", "note": "文學回憶錄", "tag": "已出版作品" },
+        { "title": "K-MAMA's Luxury Fashion Coloring Book", "note": "英文、法文、德文版", "tag": "已出版作品" },
+        { "title": "Esther Cho", "note": "書籍計畫", "tag": "製作中" }
+      ]
+    },
+    {
+      "key": "brand-objects",
+      "label": "品牌物件",
+      "items": [
+        { "title": "品牌物件", "note": "籌備中", "tag": "開發中" }
+      ]
+    }
+  ]
+}

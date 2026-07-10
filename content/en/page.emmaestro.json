@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Official music artist brand by Emma Kwon",
+  "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "Emma Kwon, as EMMAESTRO"
+  },
+  "intro": "Sound drifts through its own room in this house — three albums, twenty songs, floating quietly out into the world.",
+  "stats": [
+    { "label": "Albums", "value": "3" },
+    { "label": "Songs", "value": "20" },
+    { "label": "Reach", "value": "Worldwide" }
+  ],
+  "streamingSectionTitle": "Listen",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music",
+  "albums": [
+    {
+      "title": "AUSSIE",
+      "cover": "/emmaestro/emmaestro-aussie-album-cover.jpg",
+      "linkKey": "aussie"
+    },
+    {
+      "title": "SLY FAIRY",
+      "cover": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg",
+      "linkKey": "slyFairy"
+    },
+    {
+      "title": "No Deadline To Be Okay",
+      "cover": "/emmaestro/emmaestro-no-deadline-to-be-okay-album-cover.jpg",
+      "linkKey": "noDeadlineToBeOkay"
+    }
+  ]
+}

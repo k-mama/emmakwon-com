@@ -1,5 +1,6 @@
-import homeContent from "@/content/page.home.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
+import { getContent, type HomeContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { HomeMaisonHero } from "@/components/home/HomeMaisonHero";
 import { HomeNoticeVideo } from "@/components/home/HomeNoticeVideo";
 import { HomeIdentityPortrait } from "@/components/home/HomeIdentityPortrait";
@@ -8,10 +9,12 @@ import { HomeProofStrip } from "@/components/home/HomeProofStrip";
 import { HomeInstagramWindow } from "@/components/home/HomeInstagramWindow";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 
-export function PageHomeComposer() {
+export function PageHomeComposer({ locale }: { locale: Locale }) {
+  const homeContent = getContent<HomeContent>(locale, "page.home");
+
   return (
     <>
-      <HomeMaisonHero hook={homeContent.hero.hook} href={homeContent.hero.href} />
+      <HomeMaisonHero hook={homeContent.hero.hook} href={`/${locale}${homeContent.hero.href}`} />
 
       <SharedSectionShell className="py-0 pb-16 sm:pb-20">
         <HomeNoticeVideo
@@ -29,7 +32,12 @@ export function PageHomeComposer() {
       </SharedSectionShell>
 
       <SharedSectionShell>
-        <HomeRoomEntranceGrid roomEntrances={homeContent.roomEntrances} />
+        <HomeRoomEntranceGrid
+          roomEntrances={homeContent.roomEntrances.map((room) => ({
+            ...room,
+            href: `/${locale}${room.href}`,
+          }))}
+        />
       </SharedSectionShell>
 
       <SharedSectionShell className="py-16">

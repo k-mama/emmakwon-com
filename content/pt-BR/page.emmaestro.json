@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Marca oficial de artista musical de Emma Kwon",
+  "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "Emma Kwon, como EMMAESTRO"
+  },
+  "intro": "O som atravessa seu próprio cômodo nesta casa — três álbuns, vinte músicas, flutuando quietamente para o mundo.",
+  "stats": [
+    { "label": "Álbuns", "value": "3" },
+    { "label": "Músicas", "value": "20" },
+    { "label": "Alcance", "value": "Mundial" }
+  ],
+  "streamingSectionTitle": "Ouça",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music",
+  "albums": [
+    {
+      "title": "AUSSIE",
+      "cover": "/emmaestro/emmaestro-aussie-album-cover.jpg",
+      "linkKey": "aussie"
+    },
+    {
+      "title": "SLY FAIRY",
+      "cover": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg",
+      "linkKey": "slyFairy"
+    },
+    {
+      "title": "No Deadline To Be Okay",
+      "cover": "/emmaestro/emmaestro-no-deadline-to-be-okay-album-cover.jpg",
+      "linkKey": "noDeadlineToBeOkay"
+    }
+  ]
+}

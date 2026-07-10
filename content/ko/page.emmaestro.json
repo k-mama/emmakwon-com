@@ -1,0 +1,34 @@
+{
+  "eyebrow": "Emma Kwon의 공식 음악 아티스트 브랜드",
+  "title": "EMMAESTRO",
+  "candidPhoto": {
+    "src": "/emma-kwon/emma-kwon-studio-candid.jpg",
+    "alt": "EMMAESTRO로서의 Emma Kwon"
+  },
+  "intro": "이 집 안에는 소리를 위한 방이 따로 있습니다 — 앨범 세 장, 곡 스무 곡이 조용히 세상 밖으로 흘러나갑니다.",
+  "stats": [
+    { "label": "앨범", "value": "3" },
+    { "label": "곡", "value": "20" },
+    { "label": "도달 범위", "value": "전 세계" }
+  ],
+  "streamingSectionTitle": "듣기",
+  "spotifyLabel": "Spotify",
+  "appleMusicLabel": "Apple Music",
+  "albums": [
+    {
+      "title": "AUSSIE",
+      "cover": "/emmaestro/emmaestro-aussie-album-cover.jpg",
+      "linkKey": "aussie"
+    },
+    {
+      "title": "SLY FAIRY",
+      "cover": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg",
+      "linkKey": "slyFairy"
+    },
+    {
+      "title": "No Deadline To Be Okay",
+      "cover": "/emmaestro/emmaestro-no-deadline-to-be-okay-album-cover.jpg",
+      "linkKey": "noDeadlineToBeOkay"
+    }
+  ]
+}

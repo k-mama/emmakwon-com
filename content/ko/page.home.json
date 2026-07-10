@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "hook": "미소는 완벽했다. 그 미소가 감춘 것은, 한 권의 책이 되었다.",
+    "href": "/born-rare"
+  },
+  "houseStatement": "Emma Kwon은 하나의 집입니다. 음악과 회고록, 출판, 갤러리, 그리고 어린이를 위한 세계가 저마다의 방이 되어 이 집 안에 깃들어 있으며, 그 모든 방에는 그녀의 손길이 담겨 있습니다.",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "noticeVideo": {
+    "eyebrow": "주요 소식",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
+  "roomEntrances": [
+    {
+      "key": "born-rare",
+      "kicker": "문학적 회고록",
+      "label": "BORN RARE",
+      "description": "그녀 자신의 언어로 전하는 이야기.",
+      "href": "/born-rare"
+    },
+    {
+      "key": "emmaestro",
+      "kicker": "음악",
+      "label": "EMMAESTRO",
+      "description": "앨범 세 장. 곡 스무 곡. 전 세계로.",
+      "href": "/emmaestro"
+    },
+    {
+      "key": "amazing-tiger-publishing",
+      "kicker": "출판 임프린트",
+      "label": "Amazing Tiger Publishing",
+      "description": "정성으로 만든 책들.",
+      "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "works",
+      "kicker": "갤러리",
+      "label": "작업",
+      "description": "오브제와 패키징, 그리고 디자인된 세계들.",
+      "href": "/works"
+    },
+    {
+      "key": "k-mama",
+      "kicker": "어린이 세계",
+      "label": "K-MAMA",
+      "description": "어린 마음을 위한 따뜻한 이야기.",
+      "href": "/k-mama"
+    }
+  ],
+  "proofStrip": [
+    "앨범 3장",
+    "곡 20곡",
+    "전 세계 스트리밍",
+    "BORN RARE, 출간된 회고록",
+    "K-MAMA, 3개 언어로 출간"
+  ],
+  "instagramWindow": {
+    "label": "살아 있는 창",
+    "description": "그때그때 나누는 기록과 챕터, 그리고 작업의 과정들."
+  }
+}

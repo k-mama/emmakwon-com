@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "hook": "その笑顔は完璧だった。隠していたものは、一冊の本になった。",
+    "href": "/born-rare"
+  },
+  "houseStatement": "Emma Kwonはこの家そのもの。音楽、回想録、出版、ギャラリー、そして子供たちの世界が、それぞれの部屋としてこの家に息づき、そのすべてに彼女の手が宿っています。",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "noticeVideo": {
+    "eyebrow": "注目のお知らせ",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
+  "roomEntrances": [
+    {
+      "key": "born-rare",
+      "kicker": "文学的回想録",
+      "label": "BORN RARE",
+      "description": "彼女自身の言葉で綴られた物語。",
+      "href": "/born-rare"
+    },
+    {
+      "key": "emmaestro",
+      "kicker": "音楽",
+      "label": "EMMAESTRO",
+      "description": "アルバム3枚。楽曲20曲。世界へ。",
+      "href": "/emmaestro"
+    },
+    {
+      "key": "amazing-tiger-publishing",
+      "kicker": "出版インプリント",
+      "label": "Amazing Tiger Publishing",
+      "description": "丁寧に作られた本。",
+      "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "works",
+      "kicker": "ギャラリー",
+      "label": "作品",
+      "description": "オブジェ、パッケージ、そしてデザインされた世界。",
+      "href": "/works"
+    },
+    {
+      "key": "k-mama",
+      "kicker": "子供の世界",
+      "label": "K-MAMA",
+      "description": "小さな心のための、温かな物語。",
+      "href": "/k-mama"
+    }
+  ],
+  "proofStrip": [
+    "アルバム3枚",
+    "楽曲20曲",
+    "世界配信中",
+    "BORN RARE、刊行された回想録",
+    "K-MAMA、3か国語で刊行"
+  ],
+  "instagramWindow": {
+    "label": "生きた窓",
+    "description": "その時々のノート、章、そして制作の過程を、そのまま届けています。"
+  }
+}

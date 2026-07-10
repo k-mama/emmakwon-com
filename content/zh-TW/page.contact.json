@@ -1,0 +1,21 @@
+{
+  "eyebrow": "聯絡窗口",
+  "title": "聯絡",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "signature": "Emma Kwon — 作家 · 音樂創作者 · 出版人 · 設計師",
+  "intro": "若有書籍相關洽詢、創作合作，或精選出版計畫，歡迎透過 Instagram 與我聯繫。",
+  "inquiryTypes": [
+    "出版洽詢",
+    "書籍製作洽詢",
+    "音樂洽詢",
+    "網站與品牌設計洽詢",
+    "採訪與媒體洽詢",
+    "K-MAMA 合作",
+    "作品洽詢",
+    "一般訊息"
+  ],
+  "instagramCta": "在 Instagram 上聯繫 Emma"
+}

@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "hook": "笑容無懈可擊。而它所隱藏的，成了一本書。",
+    "href": "/born-rare"
+  },
+  "houseStatement": "Emma Kwon 是這棟房子。音樂、回憶錄、出版、畫廊與兒童世界，都是屋內的房間，各自帶著她親手雕琢的痕跡。",
+  "portrait": {
+    "src": "/emma-kwon/emma-kwon-portrait.jpg",
+    "alt": "Emma Kwon"
+  },
+  "noticeVideo": {
+    "eyebrow": "精選公告",
+    "src": "/videos/bornrare_ad_25s.mp4"
+  },
+  "roomEntrances": [
+    {
+      "key": "born-rare",
+      "kicker": "文學回憶錄",
+      "label": "BORN RARE",
+      "description": "一個以她自己的話說出的故事。",
+      "href": "/born-rare"
+    },
+    {
+      "key": "emmaestro",
+      "kicker": "音樂",
+      "label": "EMMAESTRO",
+      "description": "三張專輯。二十首歌。唱向全世界。",
+      "href": "/emmaestro"
+    },
+    {
+      "key": "amazing-tiger-publishing",
+      "kicker": "出版社",
+      "label": "Amazing Tiger Publishing",
+      "description": "用心打造的書。",
+      "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "works",
+      "kicker": "畫廊",
+      "label": "作品",
+      "description": "物件、包裝，以及設計出的世界。",
+      "href": "/works"
+    },
+    {
+      "key": "k-mama",
+      "kicker": "兒童世界",
+      "label": "K-MAMA",
+      "description": "獻給年輕心靈的溫暖故事。",
+      "href": "/k-mama"
+    }
+  ],
+  "proofStrip": [
+    "3 張專輯",
+    "20 首歌",
+    "全球串流",
+    "BORN RARE，已出版回憶錄",
+    "K-MAMA，已推出三種語言版本"
+  ],
+  "instagramWindow": {
+    "label": "常在的窗",
+    "description": "隨手記下的筆記、篇章與創作過程，隨時分享。"
+  }
+}

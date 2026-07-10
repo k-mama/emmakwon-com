@@ -1,10 +1,20 @@
 import Link from "next/link";
-import navigation from "@/content/global.primary-navigation.en.json";
 import officialLinks from "@/content/global.official-links.registry.json";
+import type { NavigationContent, UiStringsContent } from "@/lib/content";
+import type { Locale } from "@/lib/i18n/locales";
 import { VisualChampagneLine } from "@/components/visual/VisualChampagneLine";
 
-export function SiteFooter() {
+export function SiteFooter({
+  locale,
+  navigation,
+  uiStrings,
+}: {
+  locale: Locale;
+  navigation: NavigationContent;
+  uiStrings: UiStringsContent;
+}) {
   const year = new Date().getFullYear();
+  const localizeHref = (href: string) => `/${locale}${href === "/" ? "" : href}`;
 
   return (
     <footer className="bg-cream-white px-6 pb-10 pt-16 text-soft-text sm:px-10">
@@ -29,7 +39,7 @@ export function SiteFooter() {
             {navigation.items.map((item) => (
               <Link
                 key={item.href}
-                href={item.href}
+                href={localizeHref(item.href)}
                 className="transition-colors duration-300 hover:text-header-hover"
               >
                 {item.label}
@@ -39,7 +49,7 @@ export function SiteFooter() {
         </div>
 
         <p className="mt-10 text-xs text-soft-text">
-          © {year} Emma Kwon. All rights reserved.
+          {uiStrings.copyrightTemplate.replace("{year}", String(year))}
         </p>
       </div>
     </footer>

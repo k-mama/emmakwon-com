@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Children's content and family creative brand by Emma Kwon",
+  "title": "K-MAMA",
+  "intro": "A warm world for young hearts, built with the same care as everything else in this house.",
+  "sections": [
+    {
+      "key": "coloring-books",
+      "label": "Colouring Books",
+      "description": "K-MAMA's Luxury Fashion Coloring Book, published in three editions.",
+      "editions": [
+        {
+          "label": "English",
+          "linkKey": "english",
+          "cover": "/k-mama/k-mama-coloring-book-english-cover.jpg"
+        },
+        {
+          "label": "French",
+          "linkKey": "french",
+          "cover": "/k-mama/k-mama-coloring-book-french-cover.jpg"
+        },
+        {
+          "label": "German",
+          "linkKey": "german",
+          "cover": "/k-mama/k-mama-coloring-book-german-cover.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kids-songs",
+      "label": "Kids Songs",
+      "description": "Six songs released so far, warm and bright.",
+      "status": "Streaming links being curated"
+    },
+    {
+      "key": "learning-comics",
+      "label": "Learning Comic Video Series",
+      "description": "In development, arriving in a future season."
+    },
+    {
+      "key": "reels-wave-kids",
+      "label": "Reels Wave Kids",
+      "description": "A YouTube channel under K-MAMA, introducing warm nursery rhymes and kids songs.",
+      "logo": "/k-mama/reels-wave-kids-logo.png",
+      "youtubeCta": "Watch on YouTube",
+      "youtubeLinkKey": "reelsWaveKids"
+    },
+    {
+      "key": "dj-hamahama",
+      "label": "DJ hamahama",
+      "description": "A YouTube channel under K-MAMA, releasing free Fortnite anthems built for energy and play.",
+      "logo": "/k-mama/dj-hamahama-logo.png",
+      "youtubeCta": "Watch on YouTube",
+      "youtubeLinkKey": "djHamahama"
+    }
+  ]
+}

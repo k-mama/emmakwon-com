@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import siteCore from "@/content/global.site-core.en.json";
+import siteCore from "@/content/en/global.site-core.json";
 
 export const dynamic = "force-static";
 

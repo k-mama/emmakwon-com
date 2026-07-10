@@ -1,0 +1,11 @@
+{
+  "logo": "Emma Kwon",
+  "items": [
+    { "label": "EMMAESTRO", "href": "/emmaestro" },
+    { "label": "Amazing Tiger Publishing", "href": "/amazing-tiger-publishing" },
+    { "label": "BORN RARE", "href": "/born-rare" },
+    { "label": "Obra", "href": "/works" },
+    { "label": "K-MAMA", "href": "/k-mama" },
+    { "label": "Contacto", "href": "/contact" }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "eyebrow": "Emma Kwon의 어린이 콘텐츠 및 가족 크리에이티브 브랜드",
+  "title": "K-MAMA",
+  "intro": "어린 마음을 위한 따뜻한 세계, 이 집의 다른 모든 것과 같은 정성으로 지어졌습니다.",
+  "sections": [
+    {
+      "key": "coloring-books",
+      "label": "컬러링북",
+      "description": "K-MAMA's Luxury Fashion Coloring Book, 세 가지 에디션으로 출간되었습니다.",
+      "editions": [
+        {
+          "label": "영어",
+          "linkKey": "english",
+          "cover": "/k-mama/k-mama-coloring-book-english-cover.jpg"
+        },
+        {
+          "label": "프랑스어",
+          "linkKey": "french",
+          "cover": "/k-mama/k-mama-coloring-book-french-cover.jpg"
+        },
+        {
+          "label": "독일어",
+          "linkKey": "german",
+          "cover": "/k-mama/k-mama-coloring-book-german-cover.jpg"
+        }
+      ]
+    },
+    {
+      "key": "kids-songs",
+      "label": "키즈송",
+      "description": "지금까지 발표된 여섯 곡, 따뜻하고 밝은 노래들.",
+      "status": "스트리밍 링크 준비 중"
+    },
+    {
+      "key": "learning-comics",
+      "label": "학습 만화 영상 시리즈",
+      "description": "현재 개발 중이며, 다음 시즌에 공개될 예정입니다."
+    },
+    {
+      "key": "reels-wave-kids",
+      "label": "Reels Wave Kids",
+      "description": "K-MAMA 산하의 유튜브 채널로, 따뜻한 동요와 키즈송을 소개합니다.",
+      "logo": "/k-mama/reels-wave-kids-logo.png",
+      "youtubeCta": "YouTube에서 보기",
+      "youtubeLinkKey": "reelsWaveKids"
+    },
+    {
+      "key": "dj-hamahama",
+      "label": "DJ hamahama",
+      "description": "K-MAMA 산하의 유튜브 채널로, 에너지와 즐거움을 위한 무료 포트나이트 응원가를 발표합니다.",
+      "logo": "/k-mama/dj-hamahama-logo.png",
+      "youtubeCta": "YouTube에서 보기",
+      "youtubeLinkKey": "djHamahama"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Emma Kwon 的文学回忆录",
+  "title": "BORN RARE",
+  "cover": "/born-rare/born-rare-book-cover.jpg",
+  "intro": "一部关于生存、童年与光亮的回忆录——记录着如何将曾被误读的岁月,亲手写成了作品。",
+  "editionsSectionTitle": "现已在亚马逊上架",
+  "editions": [
+    { "label": "Kindle", "linkKey": "kindleUrl" },
+    { "label": "平装本", "linkKey": "paperbackUrl" },
+    { "label": "精装本", "linkKey": "hardcoverUrl" }
+  ],
+  "instagramNote": "关注 Emma 的 Instagram,阅读 BORN RARE 的最新手记与章节更新。"
+}
