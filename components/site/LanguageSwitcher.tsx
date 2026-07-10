@@ -23,7 +23,7 @@ export function LanguageSwitcher({
 
   return (
     <div className={`relative inline-flex items-center ${className}`}>
-      <VisualGlobeIcon className="pointer-events-none absolute left-3 h-3.5 w-3.5 text-soft-text" />
+      <VisualGlobeIcon className="pointer-events-none absolute left-2 h-5 w-5" />
       <select
         aria-label={ariaLabel}
         value={locale}
@@ -32,7 +32,7 @@ export function LanguageSwitcher({
           const target = restPath === "" ? `/${nextLocale}` : `/${nextLocale}${restPath}`;
           router.push(target);
         }}
-        className="cursor-pointer rounded-full border border-divider-line bg-transparent py-1.5 pl-8 pr-3 text-xs uppercase tracking-[0.15em] text-soft-text transition-colors duration-300 hover:text-header-hover focus:outline-none"
+        className="cursor-pointer rounded-full border border-divider-line bg-transparent py-1.5 pl-9 pr-3 text-xs uppercase tracking-[0.15em] text-soft-text transition-colors duration-300 hover:text-header-hover focus:outline-none"
       >
         {locales.map((loc) => (
           <option key={loc} value={loc} className="text-body-text">
