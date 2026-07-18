@@ -16,10 +16,7 @@ export function HomeHero({
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-muted-bronze">
             {name}
           </p>
-          <h1
-            className="mt-4 text-balance text-3xl font-normal leading-tight text-obsidian sm:text-5xl"
-            style={{ fontFamily: "var(--font-home-display)" }}
-          >
+          <h1 className="mt-4 text-balance font-display text-3xl font-normal leading-tight text-obsidian sm:text-5xl">
             {line}
           </h1>
           <p className="mx-auto mt-5 max-w-md text-balance text-base leading-relaxed text-body-text sm:text-lg">

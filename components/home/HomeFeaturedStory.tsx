@@ -25,10 +25,7 @@ export function HomeFeaturedStory({
       <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-muted-bronze">
         {eyebrow}
       </p>
-      <h2
-        className="mt-4 text-center text-2xl font-normal text-obsidian sm:text-3xl"
-        style={{ fontFamily: "var(--font-home-display)" }}
-      >
+      <h2 className="mt-4 text-center font-display text-2xl font-normal text-obsidian sm:text-3xl">
         {question}
       </h2>
       <p className="mt-2 text-center text-sm text-body-text">{caption}</p>

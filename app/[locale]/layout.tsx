@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Baloo_2, Manrope } from "next/font/google";
+import { Google_Sans_Flex, Manrope } from "next/font/google";
 import { notFound } from "next/navigation";
 import {
   locales,
@@ -19,10 +19,10 @@ import {
 import { SiteShell } from "@/components/site/SiteShell";
 import "../globals.css";
 
-const displayRounded = Baloo_2({
-  variable: "--font-baloo",
+const displayFont = Google_Sans_Flex({
+  variable: "--font-google-sans",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const bodySans = Manrope({
@@ -96,7 +96,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${displayRounded.variable} ${bodySans.variable} h-full antialiased`}
+      className={`${displayFont.variable} ${bodySans.variable} h-full antialiased`}
     >
       <body className="min-h-full">
         <SiteShell locale={locale} navigation={navigation} uiStrings={uiStrings}>

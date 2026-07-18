@@ -101,7 +101,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
-  --font-display: var(--font-baloo);
+  --font-display: var(--font-google-sans);
   --font-sans: var(--font-manrope);
 }
 
