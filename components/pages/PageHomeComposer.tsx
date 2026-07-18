@@ -23,9 +23,9 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
         cue={homeContent.hero.cue}
       />
 
-      <SharedSectionShell className="py-0 pb-16 sm:pb-20">
+      <div className="mx-auto max-w-5xl px-6 pt-0 pb-10 sm:px-10 sm:pb-14">
         <HomeVoiceNote quote={homeContent.voiceNote} />
-      </SharedSectionShell>
+      </div>
 
       <SharedSectionShell>
         <HomeRoomIndex

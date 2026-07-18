@@ -13,7 +13,7 @@ export function HomeHero({
 }) {
   return (
     <section className="relative">
-      <div className="relative mx-auto flex max-w-2xl justify-center px-6 pt-16 pb-14 text-center sm:pt-20 sm:pb-20">
+      <div className="relative mx-auto flex max-w-2xl justify-center px-6 pt-16 pb-8 text-center sm:pt-20 sm:pb-10">
         <div className="rounded-[2rem] bg-cream-white/90 px-8 py-10 shadow-md motion-safe:animate-[quiet-reveal_1.2s_ease-out_both] sm:px-14 sm:py-14">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-muted-bronze">
             {name}
