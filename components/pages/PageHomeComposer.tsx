@@ -19,8 +19,6 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
         line={homeContent.hero.line}
         subline={homeContent.hero.subline}
         cue={homeContent.hero.cue}
-        portraitSrc={homeContent.portrait.src}
-        portraitAlt={homeContent.portrait.alt}
       />
 
       <SharedSectionShell>

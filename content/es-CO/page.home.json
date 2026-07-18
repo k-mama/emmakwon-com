@@ -5,10 +5,6 @@
     "subline": "La música, las memorias, la editorial, los mundos diseñados y las historias para corazones jóvenes habitan en ella.",
     "cue": "Entrar a la casa"
   },
-  "portrait": {
-    "src": "/emma-kwon/emma-kwon-portrait.jpg",
-    "alt": "Emma Kwon"
-  },
   "roomIndexLabel": "Dentro de la Casa",
   "roomEntrances": [
     {

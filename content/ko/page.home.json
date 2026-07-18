@@ -5,10 +5,6 @@
     "subline": "음악과 회고록, 출판, 디자인된 세계, 그리고 어린 마음을 위한 이야기가 그 안에 깃들어 있습니다.",
     "cue": "집 안으로 들어가기"
   },
-  "portrait": {
-    "src": "/emma-kwon/emma-kwon-portrait.jpg",
-    "alt": "Emma Kwon"
-  },
   "roomIndexLabel": "집 안의 방들",
   "roomEntrances": [
     {
