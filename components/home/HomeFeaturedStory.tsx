@@ -27,7 +27,7 @@ export function HomeFeaturedStory({
       </p>
       <h2
         className="mt-4 text-center text-3xl font-semibold text-obsidian sm:text-4xl"
-        style={{ fontFamily: "var(--font-home-serif)" }}
+        style={{ fontFamily: "var(--font-home-display)" }}
       >
         {question}
       </h2>

@@ -52,7 +52,7 @@ export function HomeRoomIndex({
             <div>
               <h3
                 className="text-2xl font-semibold text-obsidian sm:text-3xl"
-                style={{ fontFamily: "var(--font-home-serif)" }}
+                style={{ fontFamily: "var(--font-home-display)" }}
               >
                 {room.label}
               </h3>
