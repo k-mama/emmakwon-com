@@ -1,44 +1,48 @@
 {
   "hero": {
-    "hook": "미소는 완벽했다. 그 미소가 감춘 것은, 한 권의 책이 되었다.",
-    "href": "/born-rare"
+    "name": "EMMA KWON",
+    "line": "Emma Kwon은 하나의 집입니다.",
+    "subline": "음악과 회고록, 출판, 디자인된 세계, 그리고 어린 마음을 위한 이야기가 그 안에 깃들어 있습니다.",
+    "cue": "집 안으로 들어가기"
   },
-  "houseStatement": "Emma Kwon은 하나의 집입니다. 음악과 회고록, 출판, 갤러리, 그리고 어린이를 위한 세계가 저마다의 방이 되어 이 집 안에 깃들어 있으며, 그 모든 방에는 그녀의 손길이 담겨 있습니다.",
   "portrait": {
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
-  "noticeVideo": {
-    "eyebrow": "주요 소식",
-    "src": "/videos/bornrare_ad_25s.mp4"
-  },
+  "roomIndexLabel": "집 안의 방들",
   "roomEntrances": [
-    {
-      "key": "born-rare",
-      "kicker": "문학적 회고록",
-      "label": "BORN RARE",
-      "description": "그녀 자신의 언어로 전하는 이야기.",
-      "href": "/born-rare"
-    },
     {
       "key": "emmaestro",
       "kicker": "음악",
       "label": "EMMAESTRO",
-      "description": "앨범 세 장. 곡 스무 곡. 전 세계로.",
-      "href": "/emmaestro"
+      "description": "앨범 세 장. 곡 스무 곡. 그녀만의 날씨.",
+      "enterLabel": "EMMAESTRO 들어가기",
+      "href": "/emmaestro",
+      "image": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg"
     },
     {
       "key": "amazing-tiger-publishing",
       "kicker": "출판 임프린트",
       "label": "Amazing Tiger Publishing",
-      "description": "정성으로 만든 책들.",
+      "description": "오래 남도록 천천히 만든 책들.",
+      "enterLabel": "출판의 방 열기",
       "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "born-rare",
+      "kicker": "문학적 회고록",
+      "label": "BORN RARE",
+      "description": "미소는 완벽했다. 그 미소가 감춘 것은, 한 권의 책이 되었다.",
+      "enterLabel": "BORN RARE 들어가기",
+      "href": "/born-rare",
+      "image": "/born-rare/born-rare-book-cover.jpg"
     },
     {
       "key": "works",
       "kicker": "갤러리",
-      "label": "작업",
-      "description": "오브제와 패키징, 그리고 디자인된 세계들.",
+      "label": "Works",
+      "description": "오브제와 인터페이스, 눈에 보이게 된 세계들.",
+      "enterLabel": "작업 보기",
       "href": "/works"
     },
     {
@@ -46,9 +50,20 @@
       "kicker": "어린이 세계",
       "label": "K-MAMA",
       "description": "어린 마음을 위한 따뜻한 이야기.",
-      "href": "/k-mama"
+      "enterLabel": "K-MAMA 만나기",
+      "href": "/k-mama",
+      "image": "/k-mama/k-mama-coloring-book-english-cover.jpg"
     }
   ],
+  "featuredStory": {
+    "eyebrow": "주요 이야기",
+    "question": "그는 왜 웃고 있었을까?",
+    "caption": "BORN RARE의 세계 속 한 장면.",
+    "cta": "BORN RARE 들어가기",
+    "href": "/born-rare",
+    "src": "/videos/bornrare_ad_25s.mp4",
+    "poster": "/born-rare/born-rare-book-cover.jpg"
+  },
   "proofStrip": [
     "앨범 3장",
     "곡 20곡",
@@ -59,5 +74,13 @@
   "instagramWindow": {
     "label": "살아 있는 창",
     "description": "그때그때 나누는 기록과 챕터, 그리고 작업의 과정들."
+  },
+  "finalDoor": {
+    "question": "무엇을 찾아 이곳에 오셨나요?",
+    "choices": [
+      { "label": "음악을 들으러 왔어요.", "href": "/emmaestro" },
+      { "label": "책을 만나러 왔어요.", "href": "/born-rare" },
+      { "label": "함께 무언가를 만들고 싶어요.", "href": "/contact" }
+    ]
   }
 }

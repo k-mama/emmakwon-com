@@ -1,44 +1,48 @@
 {
   "hero": {
-    "hook": "笑容無懈可擊。而它所隱藏的，成了一本書。",
-    "href": "/born-rare"
+    "name": "EMMA KWON",
+    "line": "Emma Kwon 是一棟房子。",
+    "subline": "音樂、回憶錄、出版、被設計出的世界,以及獻給年輕心靈的故事,都棲居其中。",
+    "cue": "走進屋內"
   },
-  "houseStatement": "Emma Kwon 是這棟房子。音樂、回憶錄、出版、畫廊與兒童世界，都是屋內的房間，各自帶著她親手雕琢的痕跡。",
   "portrait": {
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
-  "noticeVideo": {
-    "eyebrow": "精選公告",
-    "src": "/videos/bornrare_ad_25s.mp4"
-  },
+  "roomIndexLabel": "屋內的房間",
   "roomEntrances": [
-    {
-      "key": "born-rare",
-      "kicker": "文學回憶錄",
-      "label": "BORN RARE",
-      "description": "一個以她自己的話說出的故事。",
-      "href": "/born-rare"
-    },
     {
       "key": "emmaestro",
       "kicker": "音樂",
       "label": "EMMAESTRO",
-      "description": "三張專輯。二十首歌。唱向全世界。",
-      "href": "/emmaestro"
+      "description": "三張專輯。二十首歌。她獨有的氣象。",
+      "enterLabel": "進入 EMMAESTRO",
+      "href": "/emmaestro",
+      "image": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg"
     },
     {
       "key": "amazing-tiger-publishing",
       "kicker": "出版社",
       "label": "Amazing Tiger Publishing",
-      "description": "用心打造的書。",
+      "description": "慢慢打造、足以留存的書。",
+      "enterLabel": "開啟出版之室",
       "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "born-rare",
+      "kicker": "文學回憶錄",
+      "label": "BORN RARE",
+      "description": "笑容無懈可擊。而它所隱藏的,成了一本書。",
+      "enterLabel": "進入 BORN RARE",
+      "href": "/born-rare",
+      "image": "/born-rare/born-rare-book-cover.jpg"
     },
     {
       "key": "works",
       "kicker": "畫廊",
-      "label": "作品",
-      "description": "物件、包裝，以及設計出的世界。",
+      "label": "Works",
+      "description": "物件、介面,以及被具象化的世界。",
+      "enterLabel": "查看作品",
       "href": "/works"
     },
     {
@@ -46,18 +50,37 @@
       "kicker": "兒童世界",
       "label": "K-MAMA",
       "description": "獻給年輕心靈的溫暖故事。",
-      "href": "/k-mama"
+      "enterLabel": "認識 K-MAMA",
+      "href": "/k-mama",
+      "image": "/k-mama/k-mama-coloring-book-english-cover.jpg"
     }
   ],
+  "featuredStory": {
+    "eyebrow": "精選故事",
+    "question": "他為什麼在笑?",
+    "caption": "來自 BORN RARE 世界的一個場景。",
+    "cta": "進入 BORN RARE",
+    "href": "/born-rare",
+    "src": "/videos/bornrare_ad_25s.mp4",
+    "poster": "/born-rare/born-rare-book-cover.jpg"
+  },
   "proofStrip": [
     "3 張專輯",
     "20 首歌",
     "全球串流",
-    "BORN RARE，已出版回憶錄",
-    "K-MAMA，已推出三種語言版本"
+    "BORN RARE,已出版回憶錄",
+    "K-MAMA,已推出三種語言版本"
   ],
   "instagramWindow": {
     "label": "常在的窗",
-    "description": "隨手記下的筆記、篇章與創作過程，隨時分享。"
+    "description": "隨手記下的筆記、篇章與創作過程,隨時分享。"
+  },
+  "finalDoor": {
+    "question": "是什麼把你帶到這裡?",
+    "choices": [
+      { "label": "我為音樂而來。", "href": "/emmaestro" },
+      { "label": "我為書而來。", "href": "/born-rare" },
+      { "label": "我想一起做點什麼。", "href": "/contact" }
+    ]
   }
 }

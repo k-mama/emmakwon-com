@@ -1,44 +1,48 @@
 {
   "hero": {
-    "hook": "その笑顔は完璧だった。隠していたものは、一冊の本になった。",
-    "href": "/born-rare"
+    "name": "EMMA KWON",
+    "line": "Emma Kwonは、ひとつの家。",
+    "subline": "音楽、回想録、出版、デザインされた世界、そして小さな心のための物語が、その中に息づいています。",
+    "cue": "家の中へ"
   },
-  "houseStatement": "Emma Kwonはこの家そのもの。音楽、回想録、出版、ギャラリー、そして子供たちの世界が、それぞれの部屋としてこの家に息づき、そのすべてに彼女の手が宿っています。",
   "portrait": {
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
-  "noticeVideo": {
-    "eyebrow": "注目のお知らせ",
-    "src": "/videos/bornrare_ad_25s.mp4"
-  },
+  "roomIndexLabel": "家の中の部屋",
   "roomEntrances": [
-    {
-      "key": "born-rare",
-      "kicker": "文学的回想録",
-      "label": "BORN RARE",
-      "description": "彼女自身の言葉で綴られた物語。",
-      "href": "/born-rare"
-    },
     {
       "key": "emmaestro",
       "kicker": "音楽",
       "label": "EMMAESTRO",
-      "description": "アルバム3枚。楽曲20曲。世界へ。",
-      "href": "/emmaestro"
+      "description": "アルバム3枚。楽曲20曲。彼女だけの気象。",
+      "enterLabel": "EMMAESTROへ",
+      "href": "/emmaestro",
+      "image": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg"
     },
     {
       "key": "amazing-tiger-publishing",
       "kicker": "出版インプリント",
       "label": "Amazing Tiger Publishing",
-      "description": "丁寧に作られた本。",
+      "description": "長く残るよう、ゆっくり作られた本。",
+      "enterLabel": "出版の部屋を開く",
       "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "born-rare",
+      "kicker": "文学的回想録",
+      "label": "BORN RARE",
+      "description": "その笑顔は完璧だった。隠していたものは、一冊の本になった。",
+      "enterLabel": "BORN RAREへ",
+      "href": "/born-rare",
+      "image": "/born-rare/born-rare-book-cover.jpg"
     },
     {
       "key": "works",
       "kicker": "ギャラリー",
-      "label": "作品",
-      "description": "オブジェ、パッケージ、そしてデザインされた世界。",
+      "label": "Works",
+      "description": "オブジェ、インターフェース、そして目に見える形になった世界。",
+      "enterLabel": "作品を見る",
       "href": "/works"
     },
     {
@@ -46,9 +50,20 @@
       "kicker": "子供の世界",
       "label": "K-MAMA",
       "description": "小さな心のための、温かな物語。",
-      "href": "/k-mama"
+      "enterLabel": "K-MAMAに会う",
+      "href": "/k-mama",
+      "image": "/k-mama/k-mama-coloring-book-english-cover.jpg"
     }
   ],
+  "featuredStory": {
+    "eyebrow": "注目のストーリー",
+    "question": "彼はなぜ笑っていたのか?",
+    "caption": "BORN RAREの世界からの、ひとつの場面。",
+    "cta": "BORN RAREへ",
+    "href": "/born-rare",
+    "src": "/videos/bornrare_ad_25s.mp4",
+    "poster": "/born-rare/born-rare-book-cover.jpg"
+  },
   "proofStrip": [
     "アルバム3枚",
     "楽曲20曲",
@@ -59,5 +74,13 @@
   "instagramWindow": {
     "label": "生きた窓",
     "description": "その時々のノート、章、そして制作の過程を、そのまま届けています。"
+  },
+  "finalDoor": {
+    "question": "何を求めてここに来ましたか?",
+    "choices": [
+      { "label": "音楽を聴きに来た。", "href": "/emmaestro" },
+      { "label": "本を読みに来た。", "href": "/born-rare" },
+      { "label": "何かを一緒に作りたい。", "href": "/contact" }
+    ]
   }
 }

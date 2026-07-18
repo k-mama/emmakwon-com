@@ -1,44 +1,48 @@
 {
   "hero": {
-    "hook": "笑容无懈可击,而它所掩藏的,后来成了一本书。",
-    "href": "/born-rare"
+    "name": "EMMA KWON",
+    "line": "Emma Kwon 是一座宅邸。",
+    "subline": "音乐、回忆录、出版、被设计出的世界,以及写给稚嫩心灵的故事,都栖居其中。",
+    "cue": "走进屋内"
   },
-  "houseStatement": "Emma Kwon 是这座宅邸的主人。音乐、回忆录、出版、画廊与儿童世界,都是这座宅邸里的一个个房间,每一间都留有她亲手雕琢的痕迹。",
   "portrait": {
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
-  "noticeVideo": {
-    "eyebrow": "特别公告",
-    "src": "/videos/bornrare_ad_25s.mp4"
-  },
+  "roomIndexLabel": "屋内的房间",
   "roomEntrances": [
-    {
-      "key": "born-rare",
-      "kicker": "文学回忆录",
-      "label": "BORN RARE",
-      "description": "一个由她亲口讲述的故事。",
-      "href": "/born-rare"
-    },
     {
       "key": "emmaestro",
       "kicker": "音乐",
       "label": "EMMAESTRO",
-      "description": "三张专辑。二十首歌曲。唱响世界。",
-      "href": "/emmaestro"
+      "description": "三张专辑。二十首歌曲。她独有的天气。",
+      "enterLabel": "进入 EMMAESTRO",
+      "href": "/emmaestro",
+      "image": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg"
     },
     {
       "key": "amazing-tiger-publishing",
       "kicker": "出版品牌",
       "label": "Amazing Tiger Publishing",
-      "description": "用心打造的书籍。",
+      "description": "慢慢打造、足以留存的书。",
+      "enterLabel": "开启出版之室",
       "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "born-rare",
+      "kicker": "文学回忆录",
+      "label": "BORN RARE",
+      "description": "笑容无懈可击,而它所掩藏的,后来成了一本书。",
+      "enterLabel": "进入 BORN RARE",
+      "href": "/born-rare",
+      "image": "/born-rare/born-rare-book-cover.jpg"
     },
     {
       "key": "works",
       "kicker": "画廊",
-      "label": "作品",
-      "description": "器物、包装与被设计出的世界。",
+      "label": "Works",
+      "description": "器物、界面,以及被具象化的世界。",
+      "enterLabel": "查看作品",
       "href": "/works"
     },
     {
@@ -46,9 +50,20 @@
       "kicker": "儿童世界",
       "label": "K-MAMA",
       "description": "写给稚嫩心灵的温暖故事。",
-      "href": "/k-mama"
+      "enterLabel": "认识 K-MAMA",
+      "href": "/k-mama",
+      "image": "/k-mama/k-mama-coloring-book-english-cover.jpg"
     }
   ],
+  "featuredStory": {
+    "eyebrow": "特别故事",
+    "question": "他为什么在笑?",
+    "caption": "来自 BORN RARE 世界的一幕。",
+    "cta": "进入 BORN RARE",
+    "href": "/born-rare",
+    "src": "/videos/bornrare_ad_25s.mp4",
+    "poster": "/born-rare/born-rare-book-cover.jpg"
+  },
   "proofStrip": [
     "3 张专辑",
     "20 首歌曲",
@@ -59,5 +74,13 @@
   "instagramWindow": {
     "label": "鲜活之窗",
     "description": "持续更新的手记、章节与创作过程,实时分享。"
+  },
+  "finalDoor": {
+    "question": "是什么把你带到了这里?",
+    "choices": [
+      { "label": "我为音乐而来。", "href": "/emmaestro" },
+      { "label": "我为书而来。", "href": "/born-rare" },
+      { "label": "我想一起做点什么。", "href": "/contact" }
+    ]
   }
 }

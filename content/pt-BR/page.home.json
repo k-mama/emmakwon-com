@@ -1,44 +1,48 @@
 {
   "hero": {
-    "hook": "O sorriso era impecável. O que ele escondia virou um livro.",
-    "href": "/born-rare"
+    "name": "EMMA KWON",
+    "line": "Emma Kwon é a casa.",
+    "subline": "Música, memórias, publicação, mundos projetados e histórias para corações jovens vivem dentro dela.",
+    "cue": "Entrar na casa"
   },
-  "houseStatement": "Emma Kwon é a casa. Música, memórias, publicação, galeria e mundos infantis vivem nela como cômodos, cada um carregando a marca das suas mãos.",
   "portrait": {
     "src": "/emma-kwon/emma-kwon-portrait.jpg",
     "alt": "Emma Kwon"
   },
-  "noticeVideo": {
-    "eyebrow": "Aviso em Destaque",
-    "src": "/videos/bornrare_ad_25s.mp4"
-  },
+  "roomIndexLabel": "Dentro da Casa",
   "roomEntrances": [
-    {
-      "key": "born-rare",
-      "kicker": "Memórias literárias",
-      "label": "BORN RARE",
-      "description": "Uma história contada com suas próprias palavras.",
-      "href": "/born-rare"
-    },
     {
       "key": "emmaestro",
       "kicker": "Música",
       "label": "EMMAESTRO",
-      "description": "Três álbuns. Vinte músicas. No mundo todo.",
-      "href": "/emmaestro"
+      "description": "Três álbuns. Vinte músicas. Um clima só dela.",
+      "enterLabel": "Entrar em EMMAESTRO",
+      "href": "/emmaestro",
+      "image": "/emmaestro/emmaestro-sly-fairy-album-cover.jpg"
     },
     {
       "key": "amazing-tiger-publishing",
       "kicker": "Selo editorial",
       "label": "Amazing Tiger Publishing",
-      "description": "Livros feitos com cuidado.",
+      "description": "Livros feitos devagar o suficiente para durar.",
+      "enterLabel": "Abrir a sala editorial",
       "href": "/amazing-tiger-publishing"
+    },
+    {
+      "key": "born-rare",
+      "kicker": "Memórias literárias",
+      "label": "BORN RARE",
+      "description": "O sorriso era impecável. O que ele escondia virou um livro.",
+      "enterLabel": "Entrar em BORN RARE",
+      "href": "/born-rare",
+      "image": "/born-rare/born-rare-book-cover.jpg"
     },
     {
       "key": "works",
       "kicker": "Galeria",
       "label": "Obras",
-      "description": "Objetos, embalagens e mundos projetados.",
+      "description": "Objetos, interfaces e mundos tornados visíveis.",
+      "enterLabel": "Ver as obras",
       "href": "/works"
     },
     {
@@ -46,9 +50,20 @@
       "kicker": "Mundo infantil",
       "label": "K-MAMA",
       "description": "Histórias acolhedoras para corações jovens.",
-      "href": "/k-mama"
+      "enterLabel": "Conhecer K-MAMA",
+      "href": "/k-mama",
+      "image": "/k-mama/k-mama-coloring-book-english-cover.jpg"
     }
   ],
+  "featuredStory": {
+    "eyebrow": "História em Destaque",
+    "question": "Por que ele estava sorrindo?",
+    "caption": "Uma cena do mundo de BORN RARE.",
+    "cta": "Entrar em BORN RARE",
+    "href": "/born-rare",
+    "src": "/videos/bornrare_ad_25s.mp4",
+    "poster": "/born-rare/born-rare-book-cover.jpg"
+  },
   "proofStrip": [
     "3 álbuns",
     "20 músicas",
@@ -59,5 +74,13 @@
   "instagramWindow": {
     "label": "A Janela Viva",
     "description": "Notas, capítulos e processo, compartilhados conforme acontecem."
+  },
+  "finalDoor": {
+    "question": "O que trouxe você até aqui?",
+    "choices": [
+      { "label": "Vim pela música.", "href": "/emmaestro" },
+      { "label": "Vim pelos livros.", "href": "/born-rare" },
+      { "label": "Vim para criar algo.", "href": "/contact" }
+    ]
   }
 }
