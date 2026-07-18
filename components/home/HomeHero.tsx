@@ -39,13 +39,10 @@ export function HomeHero({
           <p className="mt-5 max-w-md text-balance text-base leading-relaxed text-body-text sm:text-lg">
             {subline}
           </p>
+          <p className="mt-8 text-xs uppercase tracking-[0.3em] text-soft-text">
+            {cue}
+          </p>
         </div>
-      </div>
-
-      <div className="relative flex justify-center pb-10 sm:pb-14">
-        <span className="rounded-full bg-cream-white/90 px-5 py-2 text-xs uppercase tracking-[0.3em] text-soft-text shadow-sm motion-safe:animate-[quiet-reveal_1.6s_ease-out_both]">
-          {cue}
-        </span>
       </div>
     </section>
   );
