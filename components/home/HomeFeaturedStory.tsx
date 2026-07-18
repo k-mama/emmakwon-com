@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 export function HomeFeaturedStory({
@@ -10,7 +10,6 @@ export function HomeFeaturedStory({
   cta,
   href,
   src,
-  poster,
 }: {
   eyebrow: string;
   question: string;
@@ -18,15 +17,8 @@ export function HomeFeaturedStory({
   cta: string;
   href: string;
   src: string;
-  poster: string;
 }) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  const play = () => {
-    setIsPlaying(true);
-    videoRef.current?.play();
-  };
+  const [started, setStarted] = useState(false);
 
   return (
     <div className="mx-auto max-w-xl">
@@ -38,24 +30,22 @@ export function HomeFeaturedStory({
       </h2>
       <p className="mt-2 text-center text-sm text-body-text">{caption}</p>
 
-      <div className="relative mt-8 aspect-square overflow-hidden rounded-[2rem] bg-obsidian shadow-xl">
-        <video
-          ref={videoRef}
-          className="absolute inset-0 h-full w-full object-cover"
-          src={src}
-          poster={poster}
-          playsInline
-          controls={isPlaying}
-          onPause={() => setIsPlaying(false)}
-          onEnded={() => setIsPlaying(false)}
-        />
-
-        {!isPlaying ? (
+      <div className="relative mt-8 aspect-square overflow-hidden rounded-[2rem] bg-soft-smoke shadow-xl">
+        {started ? (
+          <video
+            className="absolute inset-0 h-full w-full object-cover"
+            src={src}
+            preload="none"
+            playsInline
+            controls
+            autoPlay
+          />
+        ) : (
           <button
             type="button"
-            onClick={play}
+            onClick={() => setStarted(true)}
             aria-label={cta}
-            className="group absolute inset-0 flex items-center justify-center bg-obsidian/10 transition-colors duration-300 hover:bg-obsidian/20"
+            className="group absolute inset-0 flex items-center justify-center transition-colors duration-300 hover:bg-obsidian/10"
           >
             <span className="flex h-16 w-16 items-center justify-center rounded-full bg-cream-white/90 shadow-lg transition-transform duration-300 group-hover:scale-105">
               <svg
@@ -67,7 +57,7 @@ export function HomeFeaturedStory({
               </svg>
             </span>
           </button>
-        ) : null}
+        )}
       </div>
 
       <div className="mt-6 text-center">

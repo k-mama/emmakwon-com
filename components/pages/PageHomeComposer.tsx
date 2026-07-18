@@ -41,7 +41,6 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
           cta={homeContent.featuredStory.cta}
           href={`/${locale}${homeContent.featuredStory.href}`}
           src={homeContent.featuredStory.src}
-          poster={homeContent.featuredStory.poster}
         />
       </SharedSectionShell>
 
