@@ -68,9 +68,10 @@
     "BORN RARE,已出版回忆录",
     "K-MAMA,已出版三种语言版本"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "鲜活之窗",
-    "description": "持续更新的手记、章节与创作过程,实时分享。"
+    "description": "Emma 最近在 Reddit 上的手记。",
+    "readOnRedditLabel": "在 Reddit 上阅读"
   },
   "finalDoor": {
     "question": "是什么把你带到了这里?",

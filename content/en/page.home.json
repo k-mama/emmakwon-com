@@ -68,9 +68,10 @@
     "BORN RARE, published memoir",
     "K-MAMA, published in three languages"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "The Living Window",
-    "description": "Ongoing notes, chapters, and process, shared as they happen."
+    "description": "Recent notes from Emma on Reddit.",
+    "readOnRedditLabel": "Read on Reddit"
   },
   "finalDoor": {
     "question": "What brought you here?",

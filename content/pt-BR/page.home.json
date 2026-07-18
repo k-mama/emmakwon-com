@@ -68,9 +68,10 @@
     "BORN RARE, memórias publicadas",
     "K-MAMA, publicado em três idiomas"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "A Janela Viva",
-    "description": "Notas, capítulos e processo, compartilhados conforme acontecem."
+    "description": "Notas recentes de Emma no Reddit.",
+    "readOnRedditLabel": "Ler no Reddit"
   },
   "finalDoor": {
     "question": "O que trouxe você até aqui?",

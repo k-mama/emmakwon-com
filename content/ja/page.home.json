@@ -68,9 +68,10 @@
     "BORN RARE、刊行された回想録",
     "K-MAMA、3か国語で刊行"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "生きた窓",
-    "description": "その時々のノート、章、そして制作の過程を、そのまま届けています。"
+    "description": "Emmaが最近Redditに書いたノート。",
+    "readOnRedditLabel": "Redditで読む"
   },
   "finalDoor": {
     "question": "何を求めてここに来ましたか?",

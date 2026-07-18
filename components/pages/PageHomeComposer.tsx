@@ -1,4 +1,5 @@
 import officialLinks from "@/content/global.official-links.registry.json";
+import redditNotes from "@/content/global.reddit-notes.registry.json";
 import { getContent, type HomeContent } from "@/lib/content";
 import type { Locale } from "@/lib/i18n/locales";
 import { HomeHero } from "@/components/home/HomeHero";
@@ -6,7 +7,7 @@ import { HomeVoiceNote } from "@/components/home/HomeVoiceNote";
 import { HomeRoomIndex } from "@/components/home/HomeRoomIndex";
 import { HomeFeaturedStory } from "@/components/home/HomeFeaturedStory";
 import { HomeProofStrip } from "@/components/home/HomeProofStrip";
-import { HomeInstagramWindow } from "@/components/home/HomeInstagramWindow";
+import { HomeLivingWindow } from "@/components/home/HomeLivingWindow";
 import { HomeFinalDoor } from "@/components/home/HomeFinalDoor";
 import { SharedSectionShell } from "@/components/sections/SharedSectionShell";
 
@@ -49,11 +50,13 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
       </SharedSectionShell>
 
       <SharedSectionShell className="py-0 pb-24">
-        <HomeInstagramWindow
-          label={homeContent.instagramWindow.label}
-          description={homeContent.instagramWindow.description}
-          handle={officialLinks.instagram.handle}
-          url={officialLinks.instagram.url}
+        <HomeLivingWindow
+          label={homeContent.livingWindow.label}
+          description={homeContent.livingWindow.description}
+          readOnRedditLabel={homeContent.livingWindow.readOnRedditLabel}
+          author={officialLinks.reddit.handle}
+          profileUrl={officialLinks.reddit.url}
+          posts={redditNotes.posts}
         />
       </SharedSectionShell>
 

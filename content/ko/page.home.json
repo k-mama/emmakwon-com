@@ -68,9 +68,10 @@
     "BORN RARE, 출간된 회고록",
     "K-MAMA, 3개 언어로 출간"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "살아 있는 창",
-    "description": "그때그때 나누는 기록과 챕터, 그리고 작업의 과정들."
+    "description": "Emma가 최근 Reddit에 남긴 기록들.",
+    "readOnRedditLabel": "Reddit에서 읽기"
   },
   "finalDoor": {
     "question": "무엇을 찾아 이곳에 오셨나요?",

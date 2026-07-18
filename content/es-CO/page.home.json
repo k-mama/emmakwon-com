@@ -68,9 +68,10 @@
     "BORN RARE, memorias publicadas",
     "K-MAMA, publicado en tres idiomas"
   ],
-  "instagramWindow": {
+  "livingWindow": {
     "label": "La Ventana Viva",
-    "description": "Notas, capítulos y proceso creativo, compartidos a medida que suceden."
+    "description": "Notas recientes de Emma en Reddit.",
+    "readOnRedditLabel": "Leer en Reddit"
   },
   "finalDoor": {
     "question": "¿Qué te trajo hasta aquí?",
