@@ -17,7 +17,7 @@ export function HomeHero({
             {name}
           </p>
           <h1
-            className="mt-4 text-balance text-4xl font-semibold leading-tight text-obsidian sm:text-6xl"
+            className="mt-4 text-balance text-3xl font-normal leading-tight text-obsidian sm:text-5xl"
             style={{ fontFamily: "var(--font-home-display)" }}
           >
             {line}

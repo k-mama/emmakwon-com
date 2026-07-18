@@ -15,7 +15,7 @@ export function HomeFinalDoor({
   return (
     <div className="mx-auto max-w-xl text-center">
       <h2
-        className="text-2xl font-semibold text-obsidian sm:text-3xl"
+        className="text-2xl font-normal text-obsidian sm:text-3xl"
         style={{ fontFamily: "var(--font-home-display)" }}
       >
         {question}

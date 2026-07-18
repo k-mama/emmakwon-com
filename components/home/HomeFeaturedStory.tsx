@@ -26,7 +26,7 @@ export function HomeFeaturedStory({
         {eyebrow}
       </p>
       <h2
-        className="mt-4 text-center text-3xl font-semibold text-obsidian sm:text-4xl"
+        className="mt-4 text-center text-2xl font-normal text-obsidian sm:text-3xl"
         style={{ fontFamily: "var(--font-home-display)" }}
       >
         {question}
