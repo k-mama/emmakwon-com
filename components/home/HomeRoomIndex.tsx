@@ -20,7 +20,7 @@ export function HomeRoomIndex({
 }) {
   return (
     <div className="mx-auto max-w-4xl">
-      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-title-primary">
+      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-muted-bronze">
         {label}
       </p>
 
@@ -50,13 +50,16 @@ export function HomeRoomIndex({
             </div>
 
             <div>
-              <h3 className="font-display text-2xl text-title-primary sm:text-3xl">
+              <h3
+                className="text-2xl font-semibold text-obsidian sm:text-3xl"
+                style={{ fontFamily: "var(--font-home-serif)" }}
+              >
                 {room.label}
               </h3>
               <p className="mt-2 text-sm text-body-text sm:text-base">
                 {room.description}
               </p>
-              <span className="mt-4 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-title-primary underline decoration-title-primary/40 underline-offset-4">
+              <span className="mt-4 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-muted-bronze underline decoration-muted-bronze/40 underline-offset-4">
                 {room.enterLabel}
               </span>
             </div>

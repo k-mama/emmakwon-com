@@ -22,10 +22,13 @@ export function HomeFeaturedStory({
 
   return (
     <div className="mx-auto max-w-xl">
-      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-title-primary">
+      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-muted-bronze">
         {eyebrow}
       </p>
-      <h2 className="mt-4 text-center font-display text-2xl text-title-primary sm:text-3xl">
+      <h2
+        className="mt-4 text-center text-3xl font-semibold text-obsidian sm:text-4xl"
+        style={{ fontFamily: "var(--font-home-serif)" }}
+      >
         {question}
       </h2>
       <p className="mt-2 text-center text-sm text-body-text">{caption}</p>
@@ -63,7 +66,7 @@ export function HomeFeaturedStory({
       <div className="mt-6 text-center">
         <Link
           href={href}
-          className="text-sm font-semibold uppercase tracking-[0.25em] text-title-primary underline decoration-title-primary/40 underline-offset-4 transition-colors duration-300 hover:text-muted-bronze"
+          className="text-sm font-semibold uppercase tracking-[0.25em] text-muted-bronze underline decoration-muted-bronze/40 underline-offset-4 transition-colors duration-300 hover:text-tiger-gold"
         >
           {cta}
         </Link>

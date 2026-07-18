@@ -14,7 +14,10 @@ export function HomeFinalDoor({
 }) {
   return (
     <div className="mx-auto max-w-xl text-center">
-      <h2 className="font-display text-2xl text-title-primary sm:text-3xl">
+      <h2
+        className="text-2xl font-semibold text-obsidian sm:text-3xl"
+        style={{ fontFamily: "var(--font-home-serif)" }}
+      >
         {question}
       </h2>
 
@@ -23,7 +26,7 @@ export function HomeFinalDoor({
           <Link
             key={choice.href}
             href={choice.href}
-            className="rounded-[1.5rem] bg-cream-white/90 px-8 py-5 text-sm font-semibold text-title-primary shadow-md transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-lg"
+            className="rounded-[1.5rem] bg-cream-white/90 px-8 py-5 text-sm font-semibold text-obsidian shadow-md transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-lg"
           >
             {choice.label}
           </Link>

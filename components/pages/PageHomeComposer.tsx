@@ -1,5 +1,6 @@
 import officialLinks from "@/content/global.official-links.registry.json";
 import { getContent, type HomeContent } from "@/lib/content";
+import { homeSerif } from "@/lib/fonts";
 import type { Locale } from "@/lib/i18n/locales";
 import { HomeHero } from "@/components/home/HomeHero";
 import { HomeRoomIndex } from "@/components/home/HomeRoomIndex";
@@ -13,7 +14,7 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
   const homeContent = getContent<HomeContent>(locale, "page.home");
 
   return (
-    <>
+    <div className={homeSerif.variable}>
       <HomeHero
         name={homeContent.hero.name}
         line={homeContent.hero.line}
@@ -66,6 +67,6 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
           }))}
         />
       </SharedSectionShell>
-    </>
+    </div>
   );
 }
