@@ -20,7 +20,7 @@ export function HomeRoomIndex({
 }) {
   return (
     <div className="mx-auto max-w-3xl">
-      <p className="text-center text-xs uppercase tracking-[0.3em] text-eyebrow-label">
+      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-title-primary">
         {label}
       </p>
 
@@ -32,7 +32,7 @@ export function HomeRoomIndex({
             className="group flex items-center justify-between gap-6 border-b border-divider-line py-7 transition-opacity duration-300 hover:opacity-70 sm:py-8"
           >
             <div className="min-w-0">
-              <span className="text-xs uppercase tracking-[0.25em] text-eyebrow-label">
+              <span className="text-xs font-semibold uppercase tracking-[0.25em] text-muted-bronze">
                 {room.kicker}
               </span>
               <h3 className="mt-2 font-display text-2xl text-title-primary sm:text-3xl">
@@ -41,18 +41,18 @@ export function HomeRoomIndex({
               <p className="mt-1 text-sm text-body-text sm:text-base">
                 {room.description}
               </p>
-              <span className="mt-3 inline-block text-xs uppercase tracking-[0.2em] text-soft-text underline decoration-divider-line underline-offset-4">
+              <span className="mt-3 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-title-primary underline decoration-title-primary/40 underline-offset-4">
                 {room.enterLabel}
               </span>
             </div>
 
             {room.image ? (
-              <div className="relative aspect-[4/5] w-16 shrink-0 overflow-hidden rounded-xl shadow-sm sm:w-20">
+              <div className="relative aspect-square w-14 shrink-0 overflow-hidden rounded-lg shadow-sm ring-1 ring-divider-line sm:w-16">
                 <Image
                   src={room.image}
                   alt=""
                   fill
-                  sizes="80px"
+                  sizes="64px"
                   className="object-cover"
                 />
               </div>

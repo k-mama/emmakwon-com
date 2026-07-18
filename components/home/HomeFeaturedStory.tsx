@@ -29,19 +29,19 @@ export function HomeFeaturedStory({
   };
 
   return (
-    <div className="mx-auto max-w-2xl">
-      <p className="text-center text-xs uppercase tracking-[0.3em] text-eyebrow-label">
+    <div className="mx-auto max-w-xl">
+      <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-title-primary">
         {eyebrow}
       </p>
       <h2 className="mt-4 text-center font-display text-2xl text-title-primary sm:text-3xl">
         {question}
       </h2>
-      <p className="mt-2 text-center text-sm text-soft-text">{caption}</p>
+      <p className="mt-2 text-center text-sm text-body-text">{caption}</p>
 
-      <div className="relative mt-8 overflow-hidden rounded-[2.5rem] bg-obsidian shadow-xl">
+      <div className="relative mt-8 aspect-square overflow-hidden rounded-[2rem] bg-obsidian shadow-xl">
         <video
           ref={videoRef}
-          className="block h-auto w-full bg-obsidian"
+          className="absolute inset-0 h-full w-full object-cover"
           src={src}
           poster={poster}
           playsInline
@@ -73,7 +73,7 @@ export function HomeFeaturedStory({
       <div className="mt-6 text-center">
         <Link
           href={href}
-          className="text-xs uppercase tracking-[0.25em] text-soft-text underline decoration-divider-line underline-offset-4 transition-colors duration-300 hover:text-title-primary"
+          className="text-sm font-semibold uppercase tracking-[0.25em] text-title-primary underline decoration-title-primary/40 underline-offset-4 transition-colors duration-300 hover:text-muted-bronze"
         >
           {cta}
         </Link>

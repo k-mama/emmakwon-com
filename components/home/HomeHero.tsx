@@ -43,7 +43,7 @@ export function HomeHero({
         </div>
 
         <div className="motion-safe:animate-[quiet-reveal_1.2s_ease-out_both]">
-          <p className="text-xs uppercase tracking-[0.35em] text-eyebrow-label">
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-muted-bronze">
             {name}
           </p>
           <h1 className="mt-4 text-balance font-display text-3xl leading-tight text-title-primary sm:text-5xl">
