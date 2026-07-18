@@ -19,44 +19,47 @@ export function HomeRoomIndex({
   roomEntrances: RoomEntrance[];
 }) {
   return (
-    <div className="mx-auto max-w-3xl">
+    <div className="mx-auto max-w-4xl">
       <p className="text-center text-xs font-semibold uppercase tracking-[0.3em] text-title-primary">
         {label}
       </p>
 
-      <div className="mt-8 border-t border-divider-line">
+      <div className="mt-8 grid gap-6 sm:grid-cols-2">
         {roomEntrances.map((room) => (
           <Link
             key={room.key}
             href={room.href}
-            className="group flex items-center justify-between gap-6 border-b border-divider-line py-7 transition-opacity duration-300 hover:opacity-70 sm:py-8"
+            className="group flex flex-col justify-between gap-8 rounded-3xl bg-cream-white/90 p-8 shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-10"
           >
-            <div className="min-w-0">
+            <div className="flex items-start justify-between gap-4">
               <span className="text-xs font-semibold uppercase tracking-[0.25em] text-muted-bronze">
                 {room.kicker}
               </span>
-              <h3 className="mt-2 font-display text-2xl text-title-primary sm:text-3xl">
+
+              {room.image ? (
+                <div className="relative aspect-square w-12 shrink-0 overflow-hidden rounded-lg shadow-sm ring-1 ring-divider-line sm:w-14">
+                  <Image
+                    src={room.image}
+                    alt=""
+                    fill
+                    sizes="56px"
+                    className="object-cover"
+                  />
+                </div>
+              ) : null}
+            </div>
+
+            <div>
+              <h3 className="font-display text-2xl text-title-primary sm:text-3xl">
                 {room.label}
               </h3>
-              <p className="mt-1 text-sm text-body-text sm:text-base">
+              <p className="mt-2 text-sm text-body-text sm:text-base">
                 {room.description}
               </p>
-              <span className="mt-3 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-title-primary underline decoration-title-primary/40 underline-offset-4">
+              <span className="mt-4 inline-block text-sm font-semibold uppercase tracking-[0.2em] text-title-primary underline decoration-title-primary/40 underline-offset-4">
                 {room.enterLabel}
               </span>
             </div>
-
-            {room.image ? (
-              <div className="relative aspect-square w-14 shrink-0 overflow-hidden rounded-lg shadow-sm ring-1 ring-divider-line sm:w-16">
-                <Image
-                  src={room.image}
-                  alt=""
-                  fill
-                  sizes="64px"
-                  className="object-cover"
-                />
-              </div>
-            ) : null}
           </Link>
         ))}
       </div>

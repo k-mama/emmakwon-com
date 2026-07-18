@@ -23,7 +23,7 @@ export function HomeFinalDoor({
           <Link
             key={choice.href}
             href={choice.href}
-            className="rounded-full border border-divider-line px-8 py-4 text-sm text-body-text transition-colors duration-300 hover:border-title-primary hover:text-title-primary"
+            className="rounded-[1.5rem] bg-cream-white/90 px-8 py-5 text-sm font-semibold text-title-primary shadow-md transition-transform duration-300 hover:-translate-y-0.5 hover:shadow-lg"
           >
             {choice.label}
           </Link>

@@ -42,7 +42,7 @@ export function HomeHero({
           />
         </div>
 
-        <div className="motion-safe:animate-[quiet-reveal_1.2s_ease-out_both]">
+        <div className="rounded-[2rem] bg-cream-white/90 px-8 py-10 shadow-md motion-safe:animate-[quiet-reveal_1.2s_ease-out_both] sm:px-10">
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-muted-bronze">
             {name}
           </p>
