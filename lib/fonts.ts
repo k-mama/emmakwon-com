@@ -1,7 +1,7 @@
-import { Cormorant_Garamond } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 
-export const homeSerif = Cormorant_Garamond({
+export const homeSerif = Playfair_Display({
   variable: "--font-home-serif",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["600", "700", "800"],
 });
