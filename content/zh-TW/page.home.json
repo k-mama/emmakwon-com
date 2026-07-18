@@ -3,8 +3,10 @@
     "name": "EMMA KWON",
     "line": "Emma Kwon 是一棟房子。",
     "subline": "音樂、回憶錄、出版、被設計出的世界,以及獻給年輕心靈的故事,都棲居其中。",
+    "credibility": "BORN RARE 的作者,音樂與書籍發行至全球。",
     "cue": "走進屋內"
   },
+  "voiceNote": "你好,我是 Emma。我創作書籍、音樂、影像,以及一個個小小的世界,因為一種形式常常不足以說完我想說的話。歡迎你四處看看。",
   "roomIndexLabel": "屋內的房間",
   "roomEntrances": [
     {

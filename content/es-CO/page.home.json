@@ -3,8 +3,10 @@
     "name": "EMMA KWON",
     "line": "Emma Kwon es la casa.",
     "subline": "La música, las memorias, la editorial, los mundos diseñados y las historias para corazones jóvenes habitan en ella.",
+    "credibility": "Autora de BORN RARE, con música y libros publicados en todo el mundo.",
     "cue": "Entrar a la casa"
   },
+  "voiceNote": "Hola, soy Emma. Hago libros, música, imágenes y pequeños mundos porque una sola forma rara vez alcanza para decir lo que quiero decir. Eres bienvenido a mirar alrededor.",
   "roomIndexLabel": "Dentro de la Casa",
   "roomEntrances": [
     {

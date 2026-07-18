@@ -2,11 +2,13 @@ export function HomeHero({
   name,
   line,
   subline,
+  credibility,
   cue,
 }: {
   name: string;
   line: string;
   subline: string;
+  credibility: string;
   cue: string;
 }) {
   return (
@@ -21,6 +23,9 @@ export function HomeHero({
           </h1>
           <p className="mx-auto mt-5 max-w-md text-balance text-base leading-relaxed text-body-text sm:text-lg">
             {subline}
+          </p>
+          <p className="mt-4 text-xs tracking-wide text-muted-bronze sm:text-sm">
+            {credibility}
           </p>
           <p className="mt-8 text-xs uppercase tracking-[0.3em] text-soft-text">
             {cue}

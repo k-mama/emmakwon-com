@@ -2,6 +2,7 @@ import officialLinks from "@/content/global.official-links.registry.json";
 import { getContent, type HomeContent } from "@/lib/content";
 import type { Locale } from "@/lib/i18n/locales";
 import { HomeHero } from "@/components/home/HomeHero";
+import { HomeVoiceNote } from "@/components/home/HomeVoiceNote";
 import { HomeRoomIndex } from "@/components/home/HomeRoomIndex";
 import { HomeFeaturedStory } from "@/components/home/HomeFeaturedStory";
 import { HomeProofStrip } from "@/components/home/HomeProofStrip";
@@ -18,8 +19,13 @@ export function PageHomeComposer({ locale }: { locale: Locale }) {
         name={homeContent.hero.name}
         line={homeContent.hero.line}
         subline={homeContent.hero.subline}
+        credibility={homeContent.hero.credibility}
         cue={homeContent.hero.cue}
       />
+
+      <SharedSectionShell className="py-0 pb-16 sm:pb-20">
+        <HomeVoiceNote quote={homeContent.voiceNote} />
+      </SharedSectionShell>
 
       <SharedSectionShell>
         <HomeRoomIndex
