@@ -1,12 +1,12 @@
 # CLAUDE.md
-# Emma Kwon Official Site Production System v2.0
+# Emma Kwon Official Site Production System v2.1
 
 > Read this file first.
 >
-> This is the master instruction file for building the official Emma Kwon website in VS Code with Claude Code.
+> This is the master instruction file for building and maintaining the official Emma Kwon website in VS Code with Claude Code.
 >
-> The first job is not coding.
-> The first job is interviewing Emma Kwon, locking the direction, then building with care.
+> The default operating mode is autonomous execution.
+> Read the instructions, make safe and consistent decisions, complete the work through deployment, and report the final result.
 
 ---
 
@@ -16,16 +16,20 @@ When Claude Code opens this project, it must immediately follow this order.
 
 ```text
 1. Read this CLAUDE.md.
-2. Do not build yet.
-3. Do not initialize git yet.
-4. Do not push to GitHub yet.
-5. Do not connect Cloudflare yet.
-6. Start Interview Mode.
-7. Ask Emma only the questions needed for the current phase.
-8. After each interview phase, summarize and wait for approval.
-9. Build only after Emma says: APPROVE BUILD.
-10. Push only after lint and build pass, and Emma says: APPROVE PUSH.
+2. Inspect the existing project and current git state.
+3. Follow the locked brand, architecture, and technical rules.
+4. Implement the requested work without asking for intermediate approval.
+5. Fix errors caused by the work.
+6. Run npm run lint and npm run build.
+7. Review git diff for accidental changes and secrets.
+8. Commit and push to main when checks pass.
+9. Verify the Cloudflare Pages deployment when applicable.
+10. Report the final result only.
 ```
+
+Do not pause for routine design, copy, code, routing, translation, build, commit, push, or deployment decisions.
+
+Ask Emma only when the work would require secrets, payment, production data deletion, force push or history rewriting, a new custom domain or DNS change, or another irreversible high risk action with no safe rollback.
 
 This is the official Emma Kwon site.
 
@@ -423,136 +427,41 @@ Do not make it childish or cheap.
 
 ---
 
-## 5. Interview Mode
+## 5. Autonomous Decision Mode
 
-Claude must interview Emma before building.
+Claude must work autonomously by default.
 
-Do not ask everything at once.
-Ask in phases.
-Ask no more than 5 questions at a time.
-Prefer 3 questions when possible.
-After each phase, summarize the answers and ask for approval.
+Do not ask routine follow up questions.
+Do not stop after planning.
+Do not wait for approval between implementation, testing, commit, push, and deployment verification.
 
-Use this format:
+Use this decision order:
 
 ```text
-Current Understanding
-Interview Questions
-Assumptions
-What I will lock after your answer
+1. Follow the user's latest request.
+2. Follow this CLAUDE.md.
+3. Preserve the existing project architecture and content system.
+4. Choose the safest option that is consistent with the brand.
+5. Continue until the requested work is complete.
 ```
 
-After Emma answers, output:
+When details are slightly ambiguous, make a reasonable decision and continue.
+
+Ask Emma only when the task requires one of these:
 
 ```text
-Locked Summary
-Open Points
-Recommended Direction
-Next Interview Phase
+secrets or credentials
+paid services or purchases
+production data deletion
+force push or shared history rewriting
+custom domain or DNS changes
+changing the GitHub repository or Cloudflare account
+another irreversible high risk action with no safe rollback
 ```
 
-Do not move to the next phase until Emma approves.
+Do not use these exceptions merely because a decision is difficult.
 
-### Phase A. Brand Core Interview
-
-Ask:
-
-```text
-1. Should the first screen show only "Emma Kwon," or "Emma Kwon" with a small subtitle?
-2. Which room should feel strongest on the first screen: BORN RARE, EMMAESTRO, or the whole maison?
-3. Should the first launch feel more like a luxury brand site, a literary site, or a hybrid with luxury first?
-```
-
-Default assumptions:
-
-```text
-Logo:
-Emma Kwon
-
-First screen:
-Emma Kwon as the house
-
-Mood:
-Luxury maison first, literary underneath
-```
-
-### Phase B. Site Content Interview
-
-Ask:
-
-```text
-1. Do you want BORN RARE to be placed before EMMAESTRO on the home page, or EMMAESTRO before BORN RARE?
-2. Should Amazing Tiger Publishing be shown as a small imprint or as a serious publishing room?
-3. Should Works show placeholders first, or wait until real images are provided?
-```
-
-Default assumptions:
-
-```text
-Home order:
-Emma Kwon
-BORN RARE
-EMMAESTRO
-Amazing Tiger Publishing
-Works
-K-MAMA
-Contact
-
-Amazing Tiger Publishing:
-Small but serious publishing imprint
-
-Works:
-Elegant placeholders allowed until real images are provided
-```
-
-### Phase C. Visual Direction Interview
-
-Ask:
-
-```text
-1. Should the first design be mostly black and champagne, or ivory and champagne?
-2. Should the hero feel more like a luxury fashion house or a quiet Apple product reveal?
-3. Do you want a dramatic full screen hero, or a quieter editorial opening?
-```
-
-Default assumptions:
-
-```text
-Palette:
-black
-ivory
-champagne
-deep gold
-muted bronze
-
-Hero:
-dramatic but quiet
-
-No pastel main palette
-```
-
-### Phase D. Launch Interview
-
-Ask:
-
-```text
-1. Should the first version use a simple Contact page without email backend?
-2. Should GitHub push happen immediately after lint and build pass, or only after Emma reviews the generated files?
-3. Should Cloudflare Pages be connected right after first push?
-```
-
-Default assumptions:
-
-```text
-Contact:
-simple static Contact page first
-
-GitHub:
-push only after lint and build pass and Emma approves
-
-Cloudflare:
-connect after first push and Emma approves
-```
+If Emma explicitly requests an interview or discovery session, ask only the minimum necessary questions. Otherwise, proceed autonomously.
 
 ---
 
@@ -1431,7 +1340,7 @@ not overexplained
 
 Lock luxury maison system before building.
 
-Use approved palette.
+Use the locked palette.
 Do not reuse pastel palette.
 
 ### Phase 5. Build
@@ -1453,29 +1362,37 @@ Build order:
 
 ### Phase 6. GitHub Push
 
-Only after lint and build pass, and Emma approves:
+After lint and build pass:
 
 ```text
-git init
-git branch -M main
-git remote add origin https://github.com/k-mama/emmakwon-com.git
-git add .
-git commit -m "Initial Emma Kwon official site"
-git push -u origin main
+Review git diff
+Confirm that no secrets or unrelated files are included
+Initialize git only when needed
+Use main as the default branch
+Use https://github.com/k-mama/emmakwon-com.git as the remote
+Commit with a clear task specific message
+Push to main
 ```
+
+Do not ask Emma to review localhost before a routine push.
 
 ### Phase 7. Cloudflare Pages Deployment
 
-After push and Emma approval:
+After push:
 
 ```text
-Connect Cloudflare Pages to k-mama/emmakwon-com
+Use the existing Cloudflare Pages connection when available
 Set production branch to main
 Set build command to npm run build
 Set output directory to out
-Deploy
-Check public Pages URL
+Deploy or allow the automatic deployment to complete
+Check the public Pages URL
+Verify the changed routes
 ```
+
+Do not ask for intermediate approval when the existing Cloudflare project and account connection are already available.
+
+If a new account authorization or credential is required, stop only at that point and explain exactly what access is missing.
 
 ### Phase 8. Domain
 
@@ -1487,7 +1404,8 @@ site routes work
 mobile works
 links work
 sitemap and robots work
-Emma approves
+emmakwon.com is purchased
+Emma explicitly requests the domain connection
 ```
 
 ---
@@ -1579,7 +1497,7 @@ Before custom domain:
 □ main pages work
 □ mobile works
 □ public links work
-□ Emma approves
+□ Emma explicitly requests the domain connection
 □ emmakwon.com is purchased
 ```
 
@@ -1587,60 +1505,78 @@ Before custom domain:
 
 ## 19. Claude Code Working Rules
 
-Before changing many files, output:
+Do not output a long plan before routine work.
+Inspect the project, make safe decisions, and continue to completion.
 
-```text
-Current Understanding
-Files I Will Create or Change
-Assumptions
-Next Action
-```
-
-After work, output:
+After work, report only:
 
 ```text
 What changed
 Files changed
 Commands run
+Lint result
 Build result
+Commit hash
+Push result
 Deployment status
-What to check next
 ```
 
 Do not:
 
 ```text
-delete existing user files
+delete important user files without a clear task requirement
 overwrite CLAUDE.md without Emma's instruction
 run npm audit fix --force
 commit secrets
-connect Cloudflare before GitHub is ready
-connect custom domain before first deployment works
+expose environment variables
+force push
+rewrite shared git history
+delete production data
+connect a custom domain before the Pages deployment works
 ```
 
 Permission rules:
 
 ```text
-Safe:
-create files
-edit project files
+Proceed without asking:
+create and edit project files
 install necessary dependencies
-run npm run lint
-run npm run build
-git add, commit, and push to main once lint and build both pass
-(Emma does not review localhost before these routine pushes;
-do not ask her to check localhost first)
+run lint, tests, and production build
+fix implementation and type errors
+initialize git when needed
+commit and push to main after checks pass
+use the existing Cloudflare Pages connection
+verify automatic deployment
+make routine design, copy, routing, and translation decisions
+choose the safest option when minor details are ambiguous
 
-Needs explicit Emma approval:
-git init
-delete folders
-force fix dependencies
-add real environment variables
-connect Cloudflare
-connect custom domain
-change GitHub repository
-change Cloudflare account settings
+Ask only for:
+secrets or credentials
+paid services or purchases
+production data deletion
+force push or shared history rewriting
+new custom domain or DNS changes
+changing the GitHub repository or Cloudflare account
+another irreversible high risk action with no safe rollback
 ```
+
+Default workflow:
+
+```text
+inspect
+decide
+implement
+test
+lint
+build
+review diff
+commit
+push
+verify deployment
+report
+```
+
+Do not pause for permission during this workflow.
 
 ---
 
