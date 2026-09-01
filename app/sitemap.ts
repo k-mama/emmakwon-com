@@ -8,9 +8,12 @@ const routes: { path: string; priority: number }[] = [
   { path: "", priority: 1 },
   { path: "/emmaestro", priority: 0.9 },
   { path: "/born-rare", priority: 0.9 },
+  { path: "/unnie", priority: 0.8 },
   { path: "/amazing-tiger-publishing", priority: 0.7 },
   { path: "/works", priority: 0.7 },
   { path: "/k-mama", priority: 0.7 },
+  { path: "/unnie/install", priority: 0.5 },
+  { path: "/unnie/privacy", priority: 0.5 },
   { path: "/contact", priority: 0.5 },
 ];
 
